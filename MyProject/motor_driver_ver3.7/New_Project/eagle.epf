@@ -1,0 +1,32 @@
+[Eagle]
+Version="06 02 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-6.2.0/lbr/crystal.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.2.0/lbr/ic-package.lbr"
+UsedLibrary="E:/eagle/MyLibrary/01_R.lbr"
+UsedLibrary="E:/eagle/MyLibrary/02_C.lbr"
+UsedLibrary="E:/eagle/MyLibrary/04_IC.lbr"
+UsedLibrary="E:/eagle/MyLibrary/05_transistor.lbr"
+UsedLibrary="E:/eagle/MyLibrary/06_FET.lbr"
+UsedLibrary="E:/eagle/MyLibrary/07_PIC.lbr"
+UsedLibrary="E:/eagle/MyLibrary/08_CONECTOR.lbr"
+UsedLibrary="E:/eagle/MyLibrary/09_OTHER.lbr"
+UsedLibrary="E:/eagle/MyLibrary/CRYSTAL.lbr"
+UsedLibrary="E:/eagle/MyLibrary/TX.lbr"
+UsedLibrary="E:/eagle/MyLibrary/transistor_array.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="1545 348 2144 747"
+State=1
+Number=0
+
+[Desktop]
+Screen="2880 900"
+Window="Win_1"

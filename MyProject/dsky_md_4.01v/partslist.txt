@@ -1,0 +1,59 @@
+Partlist
+
+Exported from dsky_md_4.01v.brd at 2014/07/04 1:17:14
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value             Package       Library         Position (mm)         Orientation
+
+C1       0.1uF             1608          02_C            (8 29.5)              R0
+C2       0.1uF             1608          02_C            (8 29.5)              MR180
+C3       4.7u              2012          02_C            (8 26.9)              MR180
+C4       4.7u              2012          02_C            (8 26.9)              R0
+C5       0.1uF             1608          02_C            (6 4)                 MR180
+C6       0.1uF             1608          02_C            (14.45 17.45)         MR270
+C7       0.1uF             1608          02_C            (10 4)                MR0
+C8       1uF               1608          02_C            (1.95 11.25)          MR0
+C9       0.1uF             1608          02_C            (2.5 4)               MR0
+C10      10pF              1608          02_C            (9.75 7.75)           MR0
+C11      10pF              1608          02_C            (13.8 11.25)          MR180
+C12      10uF              1608          02_C            (3.9 18.3)            MR180
+CN1      ZH5_SMT           ZH5_SMT       14_JST          (8 13.25)             R0
+CN2      JST-PA6           JST-PA6       jst-ph          (8 5.5)               R0
+CN3      B2B-ZR            B2B-ZR        jst             (8 34)                R0
+D1       SS2040            SOD-123FL     DIODE           (1.5 29.5)            MR270
+D2       SS2040            SOD-123FL     DIODE           (14.5 29.5)           MR90
+D3       SS2040            SOD-123FL     DIODE           (1.5 29.5)            R270
+D4       SS2040            SOD-123FL     DIODE           (14.5 29.5)           R90
+FET1     ECH8302           ECH8          06_FET          (4.5 29.5)            MR0
+FET2     ECH8402           ECH8          06_FET          (11.5 29.5)           MR0
+FET3     ECH8302           ECH8          06_FET          (4.5 29.5)            R0
+FET4     ECH8402           ECH8          06_FET          (11.5 29.5)           R0
+IC1      DSPIC33EP32MC202  QFN-S28_6X6MC microchip-dspic (8 13)                MR45
+IC2      NJM2866F33        SSOP5-P-0.95  04_IC           (2.3 8.5)             MR0
+IC3      TC1427COA         SOIC8         04_IC           (8 21.5)              MR0
+IC4      TC1427COA         SOIC8         04_IC           (8 21.5)              R0
+LED1     1608              1608          10_LED          (13 10)               R270
+LED2     1608              1608          10_LED          (3 10)                R270
+R1       10                1608          01_R            (4.75 25.5)           MR270
+R2       10                1608          01_R            (11.25 25.5)          MR270
+R3       10                1608          01_R            (4.75 25.5)           R90
+R4       10                1608          01_R            (12.5 23)             R0
+R5       10K               1608          01_R            (3.5 23)              MR0
+R6       10K               1608          01_R            (12.5 23)             MR0
+R7       10K               1608          01_R            (3.5 23)              R180
+R8       10K               1608          01_R            (11.25 25.5)          R270
+R9       10K               1608          01_R            (3.5 20)              MR180
+R10      10K               1608          01_R            (12.5 20)             MR0
+R11      10K               1608          01_R            (4.5 20)              R270
+R12      10K               1608          01_R            (11.5 20)             R90
+R13      0                 1608          01_R            (1.75 20)             R270
+R14      0                 1608          01_R            (14.25 20)            R90
+R15      200               1608          01_R            (14.5 14.5)           MR90
+R16      470               1608          01_R            (6 9)                 R0
+R17      RESISTOR_SMD_1005 1005          01_R            (1.8 16.6)            MR180
+R18      RESISTOR_SMD_1005 1005          01_R            (1.8 14)              MR180
+R19      10k               1608          01_R            (13.45 4)             MR0
+XTAL     X22               SMD_X22       09_2_CRYSTAL    (13.1 8.3)            MR90

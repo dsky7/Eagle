@@ -1,0 +1,37 @@
+Partlist
+
+Exported from TOP_BEE_DEMO.sch at 2014/04/04 3:16:38
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part      Value          Device         Package         Library         Sheet
+
+CN1       DF13-12P-1.25V DF13-12P-1.25V DF13C-12P-1.25V con-hirose-df13 1
+CN2       DF13-12P-1.25V DF13-12P-1.25V DF13C-12P-1.25V con-hirose-df13 1
+CN3       DF13-6P-1.25V  DF13-6P-1.25V  DF13C-6P-1.25V  con-hirose-df13 1
+CN4       2DC-0005X      2DC-0005X      2DC-0005D       marushin        1
+C_IN                     1608           1608            02_C            1
+C_OUT                    1608           1608            02_C            1
+DCCON1    ????????       ????????       ????????        04_IC           1
+DCCON2    MAU100         MAU100         MAU             04_IC           1
+FET1      2N7002K        CHIP_FET       SOT23           06_FET          1
+FET2      2N7002K        CHIP_FET       SOT23           06_FET          1
+FET3      2N7002K        CHIP_FET       SOT23           06_FET          1
+REGULATOR NJM2845        NJM2845        TO252           04_IC           1
+R_L1_1    4.7K           RESISTOR__SMD  1608            01_R            1
+R_L1_2    10k            RESISTOR__SMD  1608            01_R            1
+R_L1_3    330            RESISTOR__SMD  1608            01_R            1
+R_L1_4    1K             RESISTOR__SMD  1608            01_R            1
+R_L2_1    4.7K           RESISTOR__SMD  1608            01_R            1
+R_L2_2    10K            RESISTOR__SMD  1608            01_R            1
+R_L2_3    330            RESISTOR__SMD  1608            01_R            1
+R_L2_4    1K             RESISTOR__SMD  1608            01_R            1
+R_L3_1    4.7K           RESISTOR__SMD  1608            01_R            1
+R_L3_2    10K            RESISTOR__SMD  1608            01_R            1
+R_L3_3    330            RESISTOR__SMD  1608            01_R            1
+R_L3_4    1K             RESISTOR__SMD  1608            01_R            1
+TLP1      TLP124         TLP124         11?4C1          04_IC           1
+TLP2      TLP124         TLP124         11?4C1          04_IC           1
+TLP3      TLP124         TLP124         11?4C1          04_IC           1

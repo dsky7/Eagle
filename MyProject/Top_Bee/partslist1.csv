@@ -1,0 +1,16 @@
+Partlist                                                                                                                    
+                                                                                                                            
+  Part       Value           Device                        秋月                                                                 必要数  
+                                                          商品名                             メーカー             通販コード      入り数   
+   C1        0.1uF            1608              チップ積層セラミックコンデンサー０．１μＦ５０Ｖ            株式会社村田製作所(muRata)     P-04940    ２００個入     1   
+   C2        47uF             3225            チップ積層セラミックコンデンサ４７μＦ１６Ｖ±１０％            株式会社村田製作所(muRata)     P-04657     5個       1   
+  CN1    DF13-12P-1.25 V DF13-12P-1.25V                                                                                     
+  COMM    SKRPACE010       SKRPACE010           表面実装用タクトスイッチ　ＳＫＲＰＡＣＥ０１０             アルプス電気株式会社(ALPS)      P-06185     ５個入      1   
+ RESET    SKRPACE010       SKRPACE010           表面実装用タクトスイッチ　ＳＫＲＰＡＣＥ０１０             アルプス電気株式会社(ALPS)      P-06185     ５個入      1   
+ LED_B       1608             1608              青色チップＬＥＤ　ＯＳＢＬ１６０８　２３ｍｃｄ                OptoSupply         I-03982    ２０個入      1   
+ LED_R       1608             1608              赤色チップＬＥＤ　ＯＳＨＲ１６０８　３５ｍｃｄ                OptoSupply         I-03978    ２０個入      1   
+   R1         100        RESISTOR__SMD                    在庫あり                                                                 1   
+   R2         100        RESISTOR__SMD                    在庫あり                                                                 1   
+ R_BLED       1k         RESISTOR__SMD                    在庫あり                                                                 1   
+ R_RLED       1k         RESISTOR__SMD                    在庫あり                                                                 1   
+  XBEE                                                                                                                         1   

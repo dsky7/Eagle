@@ -1,0 +1,56 @@
+Partlist
+
+Exported from TOP_BEE_Brother_1.1v.sch at 2014/09/16 16:30:11
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device        Package   Library  Sheet
+
+C1                      3225          3225      02_C     1
+C2                      1608          1608      02_C     1
+CN1      JST-PA12       JST-PA12      JST-PA12  jst-ph   1
+CN2      JST-PA6        JST-PA6       JST-PA6   jst-ph   1
+CN2S     JST-PA6        JST-PA6       JST-PA6   jst-ph   1
+CN3      JST-PA8        JST-PA8       JST-PA8   jst-ph   1
+CN4      JST-PA6        JST-PA6       JST-PA6   jst-ph   1
+CN5      2DC-0005X      2DC-0005X     2DC-0005D marushin 1
+C_A1                    1608          1608      02_C     1
+C_B1                    1608          1608      02_C     1
+C_C1                    1608          1608      02_C     1
+C_D1                    1608          1608      02_C     1
+C_IN                    1608          1608      02_C     1
+C_OUT                   1608          1608      02_C     1
+DCCON1   ????????       ????????      ????????  04_IC    1
+DCCON2   RS3            RS3           SIP8      04_IC    1
+FET1     2N7002K        CHIP_FET      SOT23     06_FET   1
+FET2     2N7002K        CHIP_FET      SOT23     06_FET   1
+FET3     2N7002K        CHIP_FET      SOT23     06_FET   1
+FET4     2N7002K        CHIP_FET      SOT23     06_FET   1
+L1       TDK_NLV25      TDK_NLV25     TDK_NLV   03_L     1
+L2       TDK_NLV25      TDK_NLV25     TDK_NLV   03_L     1
+L3       TDK_NLV25      TDK_NLV25     TDK_NLV   03_L     1
+L4       TDK_NLV25      TDK_NLV25     TDK_NLV   03_L     1
+R1                      RESISTOR__SMD 1608      01_R     1
+REG1     NJM2845        NJM2845       TO252     04_IC    1
+R_A1     4.7K           RESISTOR__SMD 1608      01_R     1
+R_A2     10k            RESISTOR__SMD 1608      01_R     1
+R_A3     330            RESISTOR__SMD 1608      01_R     1
+R_A4     10k            RESISTOR__SMD 1608      01_R     1
+R_B1     4.7K           RESISTOR__SMD 1608      01_R     1
+R_B2     10K            RESISTOR__SMD 1608      01_R     1
+R_B3     330            RESISTOR__SMD 1608      01_R     1
+R_B4     10k            RESISTOR__SMD 1608      01_R     1
+R_C1     4.7K           RESISTOR__SMD 1608      01_R     1
+R_C2     10K            RESISTOR__SMD 1608      01_R     1
+R_C3     330            RESISTOR__SMD 1608      01_R     1
+R_C4     10k            RESISTOR__SMD 1608      01_R     1
+R_D1     4.7K           RESISTOR__SMD 1608      01_R     1
+R_D2     10K            RESISTOR__SMD 1608      01_R     1
+R_D3     330            RESISTOR__SMD 1608      01_R     1
+R_D4     10k            RESISTOR__SMD 1608      01_R     1
+TLP1     TLP124         TLP124        11?4C1    04_IC    1
+TLP2     TLP124         TLP124        11?4C1    04_IC    1
+TLP3     TLP124         TLP124        11?4C1    04_IC    1
+TLP4     TLP124         TLP124        11?4C1    04_IC    1

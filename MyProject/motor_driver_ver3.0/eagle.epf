@@ -1,0 +1,31 @@
+[Eagle]
+Version="06 02 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-6.2.0/lbr/ic-package.lbr"
+UsedLibrary="F:/eagle/MyLibrary/01_R.lbr"
+UsedLibrary="F:/eagle/MyLibrary/04_IC.lbr"
+UsedLibrary="F:/eagle/MyLibrary/05_transistor.lbr"
+UsedLibrary="F:/eagle/MyLibrary/06_FET.lbr"
+UsedLibrary="F:/eagle/MyLibrary/07_PIC.lbr"
+UsedLibrary="F:/eagle/MyLibrary/08_CONECTOR.lbr"
+UsedLibrary="F:/eagle/MyLibrary/08_transistor_array.lbr"
+UsedLibrary="F:/eagle/MyLibrary/09_OTHER.lbr"
+UsedLibrary="F:/eagle/MyLibrary/TX.lbr"
+UsedLibrary="F:/eagle/OtherLibrary/Microchip_By_element14_Batch_1.lbr"
+UsedLibrary="F:/eagle/OtherLibrary/microchip-dspic33fjxxmc.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="394 271 1344 670"
+State=1
+Number=0
+
+[Desktop]
+Screen="2880 900"
+Window="Win_1"

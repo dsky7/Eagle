@@ -1,0 +1,22 @@
+Partlist
+
+Exported from TopBee.brd at 2014/04/08 15:35:45
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package         Library         Position (mm)         Orientation
+
+C1                      1608            02_C            (8.5 5)               R270
+C2                      3225            02_C            (10 32)               R180
+CN1      DF13-12P-1.25V DF13C-12P-1.25V con-hirose-df13 (18.9 36.3)           R0
+COMM     SKRPACE010     SKRP            09_1_switch     (3.5 40)              R270
+LED_B    1608           1608            10_LED          (22 20)               MR90
+LED_R    1608           1608            10_LED          (8 20)                MR90
+R1                      1608            01_R            (6 25)                R90
+R2                      1608            01_R            (2.5 31.5)            MR90
+RESET    SKRPACE010     SKRP            09_1_switch     (3.5 31.5)            R270
+R_BLED                  1608            01_R            (22 17)               MR270
+R_RLED                  1608            01_R            (8 17)                MR270
+XBEE     XBEE           XBEE            adafruit        (15 7.5)              R180

@@ -1,0 +1,22 @@
+Partlist
+
+Exported from TopBee.sch at 2014/04/04 15:57:13
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device         Package         Library         Sheet
+
+C1                      1608           1608            02_C            1
+C2                      3225           3225            02_C            1
+CN1      DF13-12P-1.25V DF13-12P-1.25V DF13C-12P-1.25V con-hirose-df13 1
+COMM     SKRPACE010     SKRPACE010     SKRP            09_1_switch     1
+LED_B    1608           1608           1608            10_LED          1
+LED_R    1608           1608           1608            10_LED          1
+R1                      RESISTOR__SMD  1608            01_R            1
+R2                      RESISTOR__SMD  1608            01_R            1
+RESET    SKRPACE010     SKRPACE010     SKRP            09_1_switch     1
+R_BLED                  RESISTOR__SMD  1608            01_R            1
+R_RLED                  RESISTOR__SMD  1608            01_R            1
+XBEE     XBEE           XBEE           XBEE            adafruit        1
