@@ -368,6 +368,12 @@ Source:
 <wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="+5V">
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-3.175" y="0.635" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND">
@@ -375,6 +381,20 @@ Source:
 Ground (without terminal)</description>
 <gates>
 <gate name="G$1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+5V">
+<description>&lt;b&gt;Power Supply&lt;/b&gt;&lt;p&gt;
++5V (Without terminal)</description>
+<gates>
+<gate name="G$1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -577,6 +597,248 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 </deviceset>
 </devicesets>
 </library>
+<library name="con-ml">
+<description>&lt;b&gt;Harting  Connectors&lt;/b&gt;&lt;p&gt;
+Low profile connectors, straight&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="ML26">
+<description>&lt;b&gt;HARTING&lt;/b&gt;</description>
+<wire x1="-19.05" y1="3.175" x2="19.05" y2="3.175" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-3.175" x2="19.05" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="3.175" x2="-19.05" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="4.445" x2="-19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-4.445" x2="15.621" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="20.32" y1="-4.445" x2="20.32" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="4.445" x2="-20.32" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-3.175" x2="14.732" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-2.413" x2="-2.032" y2="-2.413" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-3.175" x2="-2.032" y2="-2.413" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-3.175" x2="-10.668" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-2.413" x2="2.032" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-3.175" x2="2.032" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="19.05" y1="4.445" x2="19.05" y2="4.699" width="0.127" layer="21"/>
+<wire x1="19.05" y1="4.699" x2="17.78" y2="4.699" width="0.127" layer="21"/>
+<wire x1="17.78" y1="4.445" x2="17.78" y2="4.699" width="0.127" layer="21"/>
+<wire x1="19.05" y1="4.445" x2="20.32" y2="4.445" width="0.127" layer="21"/>
+<wire x1="0.635" y1="4.699" x2="-0.635" y2="4.699" width="0.127" layer="21"/>
+<wire x1="0.635" y1="4.699" x2="0.635" y2="4.445" width="0.127" layer="21"/>
+<wire x1="0.635" y1="4.445" x2="17.78" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="4.699" x2="-0.635" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="4.699" x2="-19.05" y2="4.699" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="4.699" x2="-19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="4.699" x2="-17.78" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="4.445" x2="-0.635" y2="4.445" width="0.127" layer="21"/>
+<wire x1="12.319" y1="-4.445" x2="2.032" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-4.445" x2="-2.032" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="13.208" y1="-3.175" x2="13.208" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="13.208" y1="-3.175" x2="2.032" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-3.175" x2="14.732" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-3.175" x2="13.208" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="12.319" y1="-4.445" x2="12.7" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-3.937" x2="15.621" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-3.937" x2="14.732" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="13.208" y1="-3.429" x2="2.032" y2="-3.429" width="0.0508" layer="21"/>
+<wire x1="2.032" y1="-3.429" x2="2.032" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-3.429" x2="19.304" y2="-3.429" width="0.0508" layer="21"/>
+<wire x1="19.304" y1="-3.429" x2="19.304" y2="3.429" width="0.0508" layer="21"/>
+<wire x1="19.304" y1="3.429" x2="-19.304" y2="3.429" width="0.0508" layer="21"/>
+<wire x1="-19.304" y1="3.429" x2="-19.304" y2="-3.429" width="0.0508" layer="21"/>
+<wire x1="-19.304" y1="-3.429" x2="-12.192" y2="-3.429" width="0.0508" layer="21"/>
+<wire x1="-2.032" y1="-3.175" x2="-2.032" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-3.429" x2="-2.032" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="13.208" y1="-3.429" x2="13.208" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="13.208" y1="-3.937" x2="12.7" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-3.429" x2="14.732" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="14.732" y1="-3.937" x2="13.208" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-4.445" x2="-16.002" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-16.002" y1="-4.318" x2="-16.002" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-16.002" y1="-4.318" x2="-14.478" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-14.478" y1="-4.445" x2="-14.478" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-14.478" y1="-4.445" x2="-13.081" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-12.192" y1="-3.429" x2="-12.192" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-10.668" y1="-3.429" x2="-10.668" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-10.668" y1="-3.429" x2="-2.032" y2="-3.429" width="0.0508" layer="21"/>
+<wire x1="-12.192" y1="-3.175" x2="-12.192" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="-12.192" y1="-3.175" x2="-19.05" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-10.668" y1="-3.175" x2="-10.668" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="-10.668" y1="-3.175" x2="-12.192" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-10.668" y1="-3.937" x2="-12.192" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-12.192" y1="-3.937" x2="-12.7" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-13.081" y1="-4.445" x2="-12.7" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-3.937" x2="-9.779" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-9.779" y1="-4.445" x2="-2.032" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-3.937" x2="-10.668" y2="-3.937" width="0.127" layer="21"/>
+<pad name="1" x="-15.24" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="2" x="-15.24" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="3" x="-12.7" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="4" x="-12.7" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="5" x="-10.16" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="6" x="-10.16" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="7" x="-7.62" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="8" x="-7.62" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="9" x="-5.08" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="10" x="-5.08" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="11" x="-2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="12" x="-2.54" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="13" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="14" x="0" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="15" x="2.54" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="16" x="2.54" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="17" x="5.08" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="18" x="5.08" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="19" x="7.62" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="20" x="7.62" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="21" x="10.16" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="22" x="10.16" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="23" x="12.7" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="24" x="12.7" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="25" x="15.24" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="26" x="15.24" y="1.27" drill="0.9144" shape="octagon"/>
+<text x="-20.32" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.27" y="5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-17.78" y="-1.905" size="1.27" layer="21" ratio="10">1</text>
+<text x="-17.78" y="0.635" size="1.27" layer="21" ratio="10">2</text>
+<text x="-1.016" y="-4.064" size="1.27" layer="21" ratio="10">26</text>
+<rectangle x1="14.986" y1="1.016" x2="15.494" y2="1.524" layer="51"/>
+<rectangle x1="14.986" y1="-1.524" x2="15.494" y2="-1.016" layer="51"/>
+<rectangle x1="12.446" y1="1.016" x2="12.954" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+<rectangle x1="12.446" y1="-1.524" x2="12.954" y2="-1.016" layer="51"/>
+<rectangle x1="-12.954" y1="1.016" x2="-12.446" y2="1.524" layer="51"/>
+<rectangle x1="-15.494" y1="1.016" x2="-14.986" y2="1.524" layer="51"/>
+<rectangle x1="-10.414" y1="1.016" x2="-9.906" y2="1.524" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
+<rectangle x1="-12.954" y1="-1.524" x2="-12.446" y2="-1.016" layer="51"/>
+<rectangle x1="-15.494" y1="-1.524" x2="-14.986" y2="-1.016" layer="51"/>
+<rectangle x1="-10.414" y1="-1.524" x2="-9.906" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<rectangle x1="-7.874" y1="-1.524" x2="-7.366" y2="-1.016" layer="51"/>
+<rectangle x1="-7.874" y1="1.016" x2="-7.366" y2="1.524" layer="51"/>
+<rectangle x1="9.906" y1="1.016" x2="10.414" y2="1.524" layer="51"/>
+<rectangle x1="9.906" y1="-1.524" x2="10.414" y2="-1.016" layer="51"/>
+<rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
+<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
+<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
+<rectangle x1="7.366" y1="1.016" x2="7.874" y2="1.524" layer="51"/>
+<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
+<rectangle x1="7.366" y1="-1.524" x2="7.874" y2="-1.016" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="26P">
+<wire x1="3.81" y1="-17.78" x2="-3.81" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="17.78" x2="-3.81" y2="-17.78" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="17.78" x2="3.81" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-17.78" x2="3.81" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-10.16" x2="2.54" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-12.7" x2="2.54" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-15.24" x2="2.54" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-1.27" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-1.27" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-12.7" x2="-1.27" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-1.27" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="2.54" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-1.27" y2="7.62" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="12.7" x2="2.54" y2="12.7" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="15.24" x2="2.54" y2="15.24" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-1.27" y2="10.16" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-1.27" y2="12.7" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="-1.27" y2="15.24" width="0.6096" layer="94"/>
+<text x="-3.81" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="18.542" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="7.62" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="-12.7" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="7" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="9" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="11" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="13" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="15" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="17" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="19" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="21" x="7.62" y="10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="23" x="7.62" y="12.7" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="25" x="7.62" y="15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="-15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="-7.62" y="-12.7" visible="pad" length="middle" direction="pas"/>
+<pin name="6" x="-7.62" y="-10.16" visible="pad" length="middle" direction="pas"/>
+<pin name="8" x="-7.62" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="10" x="-7.62" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="12" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="14" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="16" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="18" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="20" x="-7.62" y="7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="22" x="-7.62" y="10.16" visible="pad" length="middle" direction="pas"/>
+<pin name="24" x="-7.62" y="12.7" visible="pad" length="middle" direction="pas"/>
+<pin name="26" x="-7.62" y="15.24" visible="pad" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ML26" prefix="SV" uservalue="yes">
+<description>&lt;b&gt;HARTING&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="26P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ML26">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="10" pad="10"/>
+<connect gate="1" pin="11" pad="11"/>
+<connect gate="1" pin="12" pad="12"/>
+<connect gate="1" pin="13" pad="13"/>
+<connect gate="1" pin="14" pad="14"/>
+<connect gate="1" pin="15" pad="15"/>
+<connect gate="1" pin="16" pad="16"/>
+<connect gate="1" pin="17" pad="17"/>
+<connect gate="1" pin="18" pad="18"/>
+<connect gate="1" pin="19" pad="19"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="20" pad="20"/>
+<connect gate="1" pin="21" pad="21"/>
+<connect gate="1" pin="22" pad="22"/>
+<connect gate="1" pin="23" pad="23"/>
+<connect gate="1" pin="24" pad="24"/>
+<connect gate="1" pin="25" pad="25"/>
+<connect gate="1" pin="26" pad="26"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="1" pin="7" pad="7"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -617,6 +879,21 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="U$5" library="09_OTHER" deviceset="GND" device=""/>
 <part name="U$6" library="09_OTHER" deviceset="GND" device=""/>
 <part name="OK1" library="optocoupler" deviceset="TLP283-4" device=""/>
+<part name="SV1" library="con-ml" deviceset="ML26" device=""/>
+<part name="U$9" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="U$10" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="U$11" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="U$14" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="U$15" library="09_OTHER" deviceset="+5V" device=""/>
+<part name="U$16" library="09_OTHER" deviceset="+5V" device=""/>
+<part name="U$19" library="09_OTHER" deviceset="+5V" device=""/>
+<part name="U$20" library="09_OTHER" deviceset="+5V" device=""/>
+<part name="U$21" library="09_OTHER" deviceset="GND" device=""/>
+<part name="U$22" library="09_OTHER" deviceset="GND" device=""/>
+<part name="U$23" library="09_OTHER" deviceset="GND" device=""/>
+<part name="U$24" library="09_OTHER" deviceset="GND" device=""/>
+<part name="U$25" library="09_OTHER" deviceset="+5V" device=""/>
+<part name="U$26" library="01_R" deviceset="RESISTOR__SMD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -656,6 +933,21 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <instance part="OK1" gate="B" x="68.58" y="116.84"/>
 <instance part="OK1" gate="C" x="109.22" y="116.84"/>
 <instance part="OK1" gate="D" x="149.86" y="116.84"/>
+<instance part="SV1" gate="1" x="205.74" y="27.94"/>
+<instance part="U$9" gate="G$1" x="20.32" y="121.92"/>
+<instance part="U$10" gate="G$1" x="58.42" y="121.92"/>
+<instance part="U$11" gate="G$1" x="99.06" y="121.92"/>
+<instance part="U$14" gate="G$1" x="139.7" y="121.92"/>
+<instance part="U$15" gate="G$1" x="20.32" y="127"/>
+<instance part="U$16" gate="G$1" x="58.42" y="127"/>
+<instance part="U$19" gate="G$1" x="99.06" y="127"/>
+<instance part="U$20" gate="G$1" x="139.7" y="127"/>
+<instance part="U$21" gate="G$1" x="38.1" y="114.3"/>
+<instance part="U$22" gate="G$1" x="76.2" y="114.3"/>
+<instance part="U$23" gate="G$1" x="116.84" y="114.3"/>
+<instance part="U$24" gate="G$1" x="157.48" y="114.3"/>
+<instance part="U$25" gate="G$1" x="2.54" y="25.4"/>
+<instance part="U$26" gate="G$1" x="7.62" y="22.86" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -744,6 +1036,22 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <junction x="124.46" y="35.56"/>
 <pinref part="U$6" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="OK1" gate="A" pin="EMIT"/>
+<pinref part="U$21" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="B" pin="EMIT"/>
+<pinref part="U$22" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="C" pin="EMIT"/>
+<pinref part="U$23" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="D" pin="EMIT"/>
+<pinref part="U$24" gate="G$1" pin="GND"/>
+</segment>
 </net>
 <net name="NC_4" class="0">
 <segment>
@@ -804,6 +1112,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="154.94" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="160.02" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="193.04" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="4"/>
+<junction x="198.12" y="15.24"/>
+<label x="193.04" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VRL_4" class="0">
 <segment>
@@ -817,6 +1131,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="CN4" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="12.7" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <label x="106.68" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="137.16" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<label x="137.16" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="OK1" gate="D" pin="C"/>
+<junction x="139.7" y="114.3"/>
 </segment>
 </net>
 <net name="ALARM_4" class="0">
@@ -870,8 +1190,11 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <net name="VRH_1" class="0">
 <segment>
 <pinref part="CN1" gate="G$1" pin="6"/>
-<wire x1="15.24" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
 <label x="20.32" y="22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$26" gate="G$1" pin="P$1"/>
+<junction x="10.16" y="22.86"/>
+<wire x1="10.16" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VLM_1" class="0">
@@ -884,6 +1207,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="CN5" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="12.7" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
 <label x="160.02" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="213.36" y1="12.7" x2="218.44" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="1"/>
+<junction x="213.36" y="12.7"/>
+<label x="218.44" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VRL_1" class="0">
@@ -898,6 +1227,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="CN1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
 <label x="20.32" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="17.78" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="17.78" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="OK1" gate="A" pin="C"/>
+<junction x="20.32" y="114.3"/>
 </segment>
 </net>
 <net name="ALARM_1" class="0">
@@ -966,6 +1301,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="154.94" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
 <label x="160.02" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="193.04" y1="12.7" x2="198.12" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="2"/>
+<junction x="198.12" y="12.7"/>
+<label x="193.04" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VRL_2" class="0">
 <segment>
@@ -979,6 +1320,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="CN2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <label x="50.8" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="55.88" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="OK1" gate="B" pin="C"/>
+<junction x="58.42" y="114.3"/>
 </segment>
 </net>
 <net name="ALARM_2" class="0">
@@ -1047,6 +1394,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="154.94" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 <label x="160.02" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="213.36" y1="15.24" x2="218.44" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="3"/>
+<junction x="213.36" y="15.24"/>
+<label x="218.44" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VRL_3" class="0">
 <segment>
@@ -1061,40 +1414,18 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="73.66" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
 <label x="78.74" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="96.52" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<label x="96.52" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="OK1" gate="C" pin="C"/>
+<junction x="99.06" y="114.3"/>
+</segment>
 </net>
 <net name="ALARM_3" class="0">
 <segment>
 <pinref part="CN3" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="10.16" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
 <label x="78.74" y="10.16" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="CN5" gate="G$1" pin="9"/>
-<wire x1="154.94" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
-<label x="160.02" y="33.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="CN5" gate="G$1" pin="10"/>
-<wire x1="154.94" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
-<label x="160.02" y="35.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="CN5" gate="G$1" pin="11"/>
-<wire x1="154.94" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
-<label x="160.02" y="38.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="CN5" gate="G$1" pin="12"/>
-<wire x1="154.94" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
-<label x="160.02" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1118,6 +1449,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="20.32" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
 <label x="17.78" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="213.36" y1="17.78" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="5"/>
+<junction x="213.36" y="17.78"/>
+<label x="218.44" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CW_CCW_IN_2" class="0">
 <segment>
@@ -1129,6 +1466,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="R3" gate="G$1" pin="P$2"/>
 <wire x1="66.04" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
 <label x="63.5" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="17.78" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="6"/>
+<junction x="198.12" y="17.78"/>
+<label x="193.04" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CW_CCW_IN_3" class="0">
@@ -1142,6 +1485,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <wire x1="106.68" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 <label x="104.14" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="213.36" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="7"/>
+<junction x="213.36" y="20.32"/>
+<label x="218.44" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CW_CCW_IN_4" class="0">
 <segment>
@@ -1153,6 +1502,12 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="R7" gate="G$1" pin="P$2"/>
 <wire x1="144.78" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
 <label x="142.24" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="20.32" x2="198.12" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="8"/>
+<junction x="198.12" y="20.32"/>
+<label x="193.04" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1183,6 +1538,106 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <pinref part="F4" gate="G$1" pin="G"/>
 <junction x="149.86" y="68.58"/>
 <wire x1="149.86" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="OK1" gate="A" pin="A"/>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<junction x="20.32" y="119.38"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="OK1" gate="B" pin="A"/>
+<pinref part="U$10" gate="G$1" pin="P$1"/>
+<junction x="58.42" y="119.38"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="OK1" gate="C" pin="A"/>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<junction x="99.06" y="119.38"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="OK1" gate="D" pin="A"/>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<junction x="139.7" y="119.38"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$2"/>
+<pinref part="U$15" gate="G$1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="P$2"/>
+<pinref part="U$16" gate="G$1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="P$2"/>
+<pinref part="U$19" gate="G$1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="P$2"/>
+<pinref part="U$20" gate="G$1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="U$26" gate="G$1" pin="P$2"/>
+<pinref part="U$25" gate="G$1" pin="+5V"/>
+<wire x1="2.54" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPEED_OUT_4" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="12"/>
+<wire x1="154.94" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
+<label x="160.02" y="40.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="157.48" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
+<label x="160.02" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="OK1" gate="D" pin="COL"/>
+<junction x="157.48" y="119.38"/>
+</segment>
+</net>
+<net name="SPEED_OUT_3" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="11"/>
+<wire x1="154.94" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
+<label x="160.02" y="38.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="C" pin="COL"/>
+<wire x1="116.84" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
+<label x="119.38" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SPEED_OUT_2" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="10"/>
+<wire x1="154.94" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+<label x="160.02" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="B" pin="COL"/>
+<wire x1="76.2" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<label x="78.74" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SPEED_OUT_1" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="9"/>
+<wire x1="154.94" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
+<label x="160.02" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="A" pin="COL"/>
+<wire x1="38.1" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="40.64" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
