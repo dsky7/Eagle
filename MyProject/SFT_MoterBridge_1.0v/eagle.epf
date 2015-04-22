@@ -390,9 +390,13 @@ UsedLibrary="c:/gitData/Eagle/MyLibrary/adafruit.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/con-hirose-df13.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/con-hirose1.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/con-jst-xh.lbr"
+UsedLibrary="c:/gitData/Eagle/MyLibrary/con-jst2.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/densikit.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/dsky_parts.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/jst-ph.lbr"
+UsedLibrary="c:/gitData/Eagle/MyLibrary/jst-vh.lbr"
+UsedLibrary="c:/gitData/Eagle/MyLibrary/jst-xa.lbr"
+UsedLibrary="c:/gitData/Eagle/MyLibrary/jst-xh.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/jst.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/marushin.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/microchip-dspic.lbr"
@@ -409,12 +413,59 @@ UsedLibrary="c:/gitData/Eagle/MyLibrary/template.lbr"
 UsedLibrary="c:/gitData/Eagle/MyLibrary/transistor_array.lbr"
 
 [Win_1]
+Type="Library Editor"
+Loc="471 121 1070 520"
+State=3
+Number=3
+File="c:/gitData/Eagle/MyLibrary/jst.lbr"
+View="-1.44432 -5.62173 8.24432 2.11206"
+WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.127"
+PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
+ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=0
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=0
+ViaShape=0
+PolygonPour=0
+PolygonRank=0
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=8
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=21
+Package="B4B-ZR"
+
+[Win_2]
 Type="Schematic Editor"
-Loc="-295 465 304 864"
+Loc="0 0 599 399"
 State=3
 Number=2
-File="SFT_MotorBridge.sch"
-View="-11.1913 -11.3018 106.703 51.9059"
+File="c:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.sch"
+View="81.2418 325.779 194.036 412.975"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -453,16 +504,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -11.1913 -11.3018 106.703 51.9059"
+Views=" 1: 81.2418 325.779 194.036 412.975"
 Sheet="1"
 
-[Win_2]
+[Win_3]
 Type="Board Editor"
-Loc="657 171 1256 570"
+Loc="706 179 1305 578"
 State=2
 Number=1
-File="SFT_MotorBridge.brd"
-View="62.3337 18.7345 104.296 52.3379"
+File="c:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.brd"
+View="-30.3864 -24.621 152.734 95.3668"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.3"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -500,12 +551,12 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=21
 
-[Win_3]
+[Win_4]
 Type="Control Panel"
-Loc="-8 -8 935 993"
-State=1
+Loc="1041 170 1640 569"
+State=2
 Number=0
 
 [Desktop]
@@ -513,3 +564,4 @@ Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
+Window="Win_4"
