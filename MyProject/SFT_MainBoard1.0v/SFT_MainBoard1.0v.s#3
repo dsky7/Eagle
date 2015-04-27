@@ -1785,7 +1785,7 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <instance part="U$1" gate="G$1" x="124.46" y="386.08"/>
 <instance part="U$3" gate="G$1" x="142.24" y="386.08"/>
 <instance part="U$4" gate="G$1" x="154.94" y="386.08"/>
-<instance part="CN1" gate="G$1" x="167.64" y="193.04"/>
+<instance part="CN1" gate="G$1" x="170.18" y="203.2"/>
 <instance part="CON1" gate="G$1" x="162.56" y="314.96"/>
 <instance part="CON2" gate="G$1" x="175.26" y="314.96"/>
 <instance part="CON3" gate="G$1" x="187.96" y="314.96"/>
