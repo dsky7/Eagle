@@ -72,6 +72,14 @@
 <wire x1="-4" y1="-4" x2="-4" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="-4" y1="-4" x2="-4" y2="-4.5" width="0.127" layer="21"/>
 </package>
+<package name="PKLCS1212E4001">
+<smd name="P$1" x="-5.6" y="0" dx="1.6" dy="4" layer="1"/>
+<smd name="P$2" x="5.6" y="0" dx="1.6" dy="4" layer="1"/>
+<wire x1="-6" y1="6" x2="-6" y2="-6" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="6" y2="6" width="0.127" layer="21"/>
+<wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SPEAKER">
@@ -100,6 +108,22 @@
 <connects>
 <connect gate="G$1" pin="MINUS" pad="MINUS"/>
 <connect gate="G$1" pin="PLUS" pad="NC1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PKLCS1212E4001">
+<gates>
+<gate name="G$1" symbol="SPEAKER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PKLCS1212E4001">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="P$1"/>
+<connect gate="G$1" pin="PLUS" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

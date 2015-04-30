@@ -2431,6 +2431,8 @@ Source: www.kingbright.com</description>
 <part name="R22" library="01_R" deviceset="RESISTOR__SMD" device=""/>
 <part name="R23" library="01_R" deviceset="RESISTOR__SMD" device=""/>
 <part name="R24" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="U$26" library="09_OTHER" deviceset="+5V" device=""/>
+<part name="U$35" library="09_OTHER" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2517,6 +2519,8 @@ Source: www.kingbright.com</description>
 <instance part="R22" gate="G$1" x="35.56" y="10.16" rot="R90"/>
 <instance part="R23" gate="G$1" x="63.5" y="10.16" rot="R90"/>
 <instance part="R24" gate="G$1" x="91.44" y="10.16" rot="R90"/>
+<instance part="U$26" gate="G$1" x="154.94" y="12.7"/>
+<instance part="U$35" gate="G$1" x="198.12" y="10.16"/>
 </instances>
 <busses>
 </busses>
@@ -3215,6 +3219,14 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="U$14" gate="G$1" pin="+5V"/>
 <pinref part="R24" gate="G$1" pin="P$2"/>
+</segment>
+<segment>
+<pinref part="CN6" gate="G$1" pin="2"/>
+<pinref part="U$26" gate="G$1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="2"/>
+<pinref part="U$35" gate="G$1" pin="+5V"/>
 </segment>
 </net>
 <net name="SPEED_OUT_4" class="0">
