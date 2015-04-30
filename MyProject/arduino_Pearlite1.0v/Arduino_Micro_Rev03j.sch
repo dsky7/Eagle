@@ -3297,18 +3297,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="CRYSTAL-3.2-2.5">
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
-<smd name="1" x="-1.15" y="-0.925" dx="1.05" dy="1.3" layer="1" rot="R90"/>
-<smd name="2" x="1.15" y="-0.925" dx="1.05" dy="1.3" layer="1" rot="R90"/>
-<smd name="3" x="1.15" y="0.925" dx="1.05" dy="1.3" layer="1" rot="R90"/>
-<smd name="4" x="-1.15" y="0.925" dx="1.05" dy="1.3" layer="1" rot="R90"/>
-<text x="-1.65" y="1.6" size="1.27" layer="25">&gt;name</text>
-<text x="-1.6" y="-2.25" size="1.27" layer="27">&gt;value</text>
-</package>
 <package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -3629,31 +3617,6 @@ chip</description>
 <pin name="OUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
 <pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
 </symbol>
-<symbol name="CRYSTAL-KX7">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<text x="1.143" y="2.794" size="0.8636" layer="93" rot="R90">3</text>
-<pin name="C1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="C2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="GND@1" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="GND@2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="PINH2X3">
 <wire x1="-6.35" y1="-5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="-5.08" x2="8.89" y2="5.08" width="0.4064" layer="94"/>
@@ -3697,24 +3660,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <technology name="30"/>
 <technology name="33"/>
 <technology name="50"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRYSTAL-3.2-2.5" prefix="X">
-<gates>
-<gate name="G$1" symbol="CRYSTAL-KX7" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CRYSTAL-3.2-2.5">
-<connects>
-<connect gate="G$1" pin="C1" pad="1"/>
-<connect gate="G$1" pin="C2" pad="3"/>
-<connect gate="G$1" pin="GND@1" pad="2"/>
-<connect gate="G$1" pin="GND@2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -19261,7 +19206,6 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <part name="R9" library="SmartPrj" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="F1" library="rcl" deviceset="L-EU" device="L1812" value="MF-MSMF050-2 500mA"/>
 <part name="C14" library="rcl" deviceset="CPOL-EU" device="SMCB" value="22u"/>
-<part name="Y3" library="SmartPrj" deviceset="CRYSTAL-3.2-2.5" device="" value="16MHz KX-7"/>
 <part name="U1" library="SmartPrj" deviceset="ATMEGA32U4-XU" device="MU"/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="SMCB" value="22u"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -19452,10 +19396,6 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="350.139" y="68.0466" size="1.778" layer="95"/>
 <attribute name="VALUE" x="347.726" y="65.5066" size="1.778" layer="96"/>
 </instance>
-<instance part="Y3" gate="G$1" x="63.5" y="149.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.96" y="144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="60.96" y="152.4" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="U1" gate="G$1" x="142.24" y="142.24"/>
 <instance part="C3" gate="G$1" x="368.3" y="187.96" smashed="yes">
 <attribute name="NAME" x="370.84" y="187.4266" size="1.778" layer="95"/>
@@ -19527,7 +19467,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <instance part="U$32" gate="G$1" x="167.64" y="241.3"/>
 <instance part="U$6" gate="G$1" x="66.04" y="172.72" rot="R270"/>
 <instance part="CN1" gate="G$1" x="99.06" y="20.32"/>
-<instance part="U$7" gate="G$1" x="35.56" y="147.32"/>
+<instance part="U$7" gate="G$1" x="63.5" y="149.86" rot="R90"/>
 <instance part="U$8" gate="G$1" x="332.74" y="116.84" rot="R90"/>
 <instance part="U$33" gate="G$1" x="332.74" y="109.22" rot="R90"/>
 <instance part="R2" gate="G$1" x="363.22" y="71.12"/>
@@ -19754,11 +19694,11 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <label x="45.72" y="149.86" size="1.778" layer="95" rot="R90"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<pinref part="Y3" gate="G$1" pin="GND@1"/>
 <wire x1="45.72" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <junction x="45.72" y="144.78"/>
 <pinref part="U$6" gate="G$1" pin="P$2"/>
+<pinref part="U$7" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="147.32" x2="254" y2="147.32" width="0.1524" layer="91"/>
@@ -19881,10 +19821,6 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="383.54" y="106.68"/>
 </segment>
 <segment>
-<pinref part="Y3" gate="G$1" pin="GND@2"/>
-<pinref part="SUPPLY9" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="185.42" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="185.42" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
@@ -19975,6 +19911,10 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="403.86" y1="66.04" x2="406.4" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$34" gate="G$1" pin="S4"/>
 <wire x1="406.4" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<pinref part="U$7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -20202,8 +20142,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="63.5" y="154.94"/>
 <label x="106.68" y="152.4" size="1.778" layer="95"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="Y3" gate="G$1" pin="C1"/>
 <pinref part="U1" gate="G$1" pin="XTAL2"/>
+<pinref part="U$7" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -20216,8 +20156,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="63.5" y="144.78"/>
 <label x="106.68" y="147.32" size="1.778" layer="95"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="Y3" gate="G$1" pin="C2"/>
 <pinref part="U1" gate="G$1" pin="XTAL1"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
