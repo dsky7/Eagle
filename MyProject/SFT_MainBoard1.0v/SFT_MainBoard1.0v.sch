@@ -2497,9 +2497,11 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <junction x="309.88" y="170.18"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="STO"/>
-<wire x1="38.1" y1="368.3" x2="35.56" y2="368.3" width="0.1524" layer="91"/>
-<label x="35.56" y="368.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="CN2" gate="G$1" pin="4"/>
+<pinref part="CON9" gate="G$1" pin="4"/>
+<wire x1="238.76" y1="309.88" x2="236.22" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="309.88" x2="238.76" y2="309.88" width="0.1524" layer="91"/>
+<label x="236.22" y="309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P12_5" class="0">
@@ -2677,11 +2679,9 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://ww
 <junction x="309.88" y="220.98"/>
 </segment>
 <segment>
-<pinref part="CN2" gate="G$1" pin="4"/>
-<pinref part="CON9" gate="G$1" pin="4"/>
-<wire x1="238.76" y1="309.88" x2="236.22" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="309.88" x2="238.76" y2="309.88" width="0.1524" layer="91"/>
-<label x="236.22" y="309.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="M1" gate="G$1" pin="STO"/>
+<wire x1="38.1" y1="368.3" x2="35.56" y2="368.3" width="0.1524" layer="91"/>
+<label x="35.56" y="368.3" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P12_7" class="0">
