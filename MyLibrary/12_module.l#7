@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -410,66 +410,26 @@ Drill hole 0.05 inches (1.3mm)</description>
 <pin name="P$18" x="-2.54" y="-43.18" visible="pad" length="short"/>
 <pin name="P$19" x="-2.54" y="-45.72" visible="pad" length="short"/>
 <pin name="P$20" x="-2.54" y="-48.26" visible="pad" length="short"/>
-<pin name="P$21" x="-2.54" y="-50.8" visible="pad" length="short"/>
-<pin name="P$22" x="-2.54" y="-53.34" visible="pad" length="short"/>
-<pin name="P$23" x="-2.54" y="-55.88" visible="pad" length="short"/>
-<pin name="P$24" x="-2.54" y="-58.42" visible="pad" length="short"/>
-<pin name="P$25" x="-2.54" y="-60.96" visible="pad" length="short"/>
-<pin name="P$26" x="-2.54" y="-63.5" visible="pad" length="short"/>
-<pin name="P$27" x="-2.54" y="-66.04" visible="pad" length="short"/>
-<pin name="P$28" x="-2.54" y="-68.58" visible="pad" length="short"/>
-<pin name="P$29" x="-2.54" y="-71.12" visible="pad" length="short"/>
-<pin name="P$30" x="-2.54" y="-73.66" visible="pad" length="short"/>
-<pin name="P$31" x="-2.54" y="-76.2" visible="pad" length="short"/>
-<pin name="P$32" x="-2.54" y="-78.74" visible="pad" length="short"/>
-<pin name="P$33" x="-2.54" y="-81.28" visible="pad" length="short"/>
-<pin name="P$34" x="-2.54" y="-83.82" visible="pad" length="short"/>
-<pin name="P$35" x="-2.54" y="-86.36" visible="pad" length="short"/>
-<pin name="P$36" x="-2.54" y="-88.9" visible="pad" length="short"/>
-<pin name="P$37" x="-2.54" y="-91.44" visible="pad" length="short"/>
-<pin name="P$38" x="-2.54" y="-93.98" visible="pad" length="short"/>
-<pin name="P$39" x="-2.54" y="-96.52" visible="pad" length="short"/>
-<pin name="P$40" x="-2.54" y="-99.06" visible="pad" length="short"/>
-<pin name="P$41" x="63.5" y="0" visible="pad" length="short"/>
-<pin name="P$42" x="63.5" y="-2.54" visible="pad" length="short"/>
-<pin name="P$43" x="63.5" y="-5.08" visible="pad" length="short"/>
-<pin name="P$44" x="63.5" y="-7.62" visible="pad" length="short"/>
-<pin name="P$45" x="63.5" y="-10.16" visible="pad" length="short"/>
-<pin name="P$46" x="63.5" y="-12.7" visible="pad" length="short"/>
-<pin name="P$47" x="63.5" y="-15.24" visible="pad" length="short"/>
-<pin name="P$48" x="63.5" y="-17.78" visible="pad" length="short"/>
-<pin name="P$49" x="63.5" y="-20.32" visible="pad" length="short"/>
-<pin name="P$50" x="63.5" y="-22.86" visible="pad" length="short"/>
-<pin name="P$51" x="63.5" y="-25.4" visible="pad" length="short"/>
-<pin name="P$52" x="63.5" y="-27.94" visible="pad" length="short"/>
-<pin name="P$53" x="63.5" y="-30.48" visible="pad" length="short"/>
-<pin name="P$54" x="63.5" y="-33.02" visible="pad" length="short"/>
-<pin name="P$55" x="63.5" y="-35.56" visible="pad" length="short"/>
-<pin name="P$56" x="63.5" y="-38.1" visible="pad" length="short"/>
-<pin name="P$57" x="63.5" y="-40.64" visible="pad" length="short"/>
-<pin name="P$58" x="63.5" y="-43.18" visible="pad" length="short"/>
-<pin name="P$59" x="63.5" y="-45.72" visible="pad" length="short"/>
-<pin name="P$60" x="63.5" y="-48.26" visible="pad" length="short"/>
-<pin name="P$61" x="63.5" y="-50.8" visible="pad" length="short"/>
-<pin name="P$62" x="63.5" y="-53.34" visible="pad" length="short"/>
-<pin name="P$63" x="63.5" y="-55.88" visible="pad" length="short"/>
-<pin name="P$64" x="63.5" y="-58.42" visible="pad" length="short"/>
-<pin name="P$65" x="63.5" y="-60.96" visible="pad" length="short"/>
-<pin name="P$66" x="63.5" y="-63.5" visible="pad" length="short"/>
-<pin name="P$67" x="63.5" y="-66.04" visible="pad" length="short"/>
-<pin name="P$68" x="63.5" y="-68.58" visible="pad" length="short"/>
-<pin name="P$69" x="63.5" y="-71.12" visible="pad" length="short"/>
-<pin name="P$70" x="63.5" y="-73.66" visible="pad" length="short"/>
-<pin name="P$71" x="63.5" y="-76.2" visible="pad" length="short"/>
-<pin name="P$72" x="63.5" y="-78.74" visible="pad" length="short"/>
-<pin name="P$73" x="63.5" y="-81.28" visible="pad" length="short"/>
-<pin name="P$74" x="63.5" y="-83.82" visible="pad" length="short"/>
-<pin name="P$75" x="63.5" y="-86.36" visible="pad" length="short"/>
-<pin name="P$76" x="63.5" y="-88.9" visible="pad" length="short"/>
-<pin name="P$77" x="63.5" y="-91.44" visible="pad" length="short"/>
-<pin name="P$78" x="63.5" y="-93.98" visible="pad" length="short"/>
-<pin name="P$79" x="63.5" y="-96.52" visible="pad" length="short"/>
-<pin name="P$80" x="63.5" y="-99.06" visible="pad" length="short"/>
+<pin name="P$21" x="17.78" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="P$22" x="17.78" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="P$23" x="17.78" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="P$24" x="17.78" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="P$25" x="17.78" y="-10.16" visible="pad" length="short" rot="R180"/>
+<pin name="P$26" x="17.78" y="-12.7" visible="pad" length="short" rot="R180"/>
+<pin name="P$27" x="17.78" y="-15.24" visible="pad" length="short" rot="R180"/>
+<pin name="P$28" x="17.78" y="-17.78" visible="pad" length="short" rot="R180"/>
+<pin name="P$29" x="17.78" y="-20.32" visible="pad" length="short" rot="R180"/>
+<pin name="P$30" x="17.78" y="-22.86" visible="pad" length="short" rot="R180"/>
+<pin name="P$31" x="17.78" y="-25.4" visible="pad" length="short" rot="R180"/>
+<pin name="P$32" x="17.78" y="-27.94" visible="pad" length="short" rot="R180"/>
+<pin name="P$33" x="17.78" y="-30.48" visible="pad" length="short" rot="R180"/>
+<pin name="P$34" x="17.78" y="-33.02" visible="pad" length="short" rot="R180"/>
+<pin name="P$35" x="17.78" y="-35.56" visible="pad" length="short" rot="R180"/>
+<pin name="P$36" x="17.78" y="-38.1" visible="pad" length="short" rot="R180"/>
+<pin name="P$37" x="17.78" y="-40.64" visible="pad" length="short" rot="R180"/>
+<pin name="P$38" x="17.78" y="-43.18" visible="pad" length="short" rot="R180"/>
+<pin name="P$39" x="17.78" y="-45.72" visible="pad" length="short" rot="R180"/>
+<pin name="P$40" x="17.78" y="-48.26" visible="pad" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>

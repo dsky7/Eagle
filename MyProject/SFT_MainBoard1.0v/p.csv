@@ -1,0 +1,54 @@
+Partlist
+
+Exported from SFT_MainBoard1.0v.brd at 2015/05/07 11:39:04
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package        Library     Position (mm)         Orientation
+
+BLUE     CHIPLED        1608           10_LED      (16.45 2.35)          R0
+C1                      1608           02_C        (15.766 11.128)       MR90
+C2                      1608           02_C        (58.77 6.58)          MR0
+C3                      1608           02_C        (58.696 3.27)         MR0
+CN1                     B14B-XASK-1    jst-xa      (81.73 26.73)         R90
+CN2                     B4B-PH-K-S     jst-ph      (77 3.5)              R180
+CN3                     B8B-PH-K-S     jst-ph      (15 60)               R0
+CN4                     B8B-PH-K-S     jst-ph      (35 60)               R0
+CN5                     B8B-PH-K-S     jst-ph      (55 60)               R0
+CN7                     B2B-PH-K-S     jst-ph      (10.422 3.548)        R180
+CON1     I2C1           B4B-ZR         jst         (96 51.27)            R90
+CON2     I2C1           B4B-ZR         jst         (91 51.27)            R90
+CON3     I2C1           B4B-ZR         jst         (86 51.27)            R90
+CON4     I2C1           B4B-ZR         jst         (81 51.27)            R90
+CON5     I2C2           B4B-ZR         jst         (2 20)                R90
+CON6     I2C2           B4B-ZR         jst         (7.5 20)              R90
+CON7     I2C2           B4B-ZR         jst         (13 20)               R90
+CON8     I2C2           B4B-ZR         jst         (18.5 20)             R90
+CON9     B4B-ZR         B4B-ZR         jst         (84 5)                R0
+M1       SBDBT          DIL10          12_module   (9.8 43.4)            R270
+R0                      1608           01_R        (43 30)               R0
+R1                      1608           01_R        (33.99 4.054)         MR0
+R2                      1608           01_R        (14.862 6.654)        MR270
+R7                      1608           01_R        (87.876 62.568)       R180
+R8                      1608           01_R        (82.78 62.664)        R180
+R9                      1608           01_R        (5 11)                R0
+R10                     1608           01_R        (5 14)                R0
+RED      CHIPLED        1608           10_LED      (20.99 2.31)          R0
+SV1                     ML26           con-ml      (93.98 27.94)         R90
+U$2      PSOC_5LP       PSOC_5LP       12_module   (45.99 27.972)        R180
+U$15     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (2 14)                R0
+U$16     I2C_FXMA2102   DIL08          04_IC       (75 58)               R270
+U$17     I2C_FXMA2102   DIL08          04_IC       (15.5 12.5)           R90
+U$18     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (2 11)                R0
+U$33     SS12D01G4      SS12D01G4      09_1_switch (74 50.27)            R0
+U$37     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (2 8)                 R0
+U$38     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (3 38)                R0
+U$39     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (94 61)               R0
+U$41     PKLCS1212E4001 PKLCS1212E4001 13_SPEAKER  (52 30)               R0
+U$52     NJM2845        TO252          04_IC       (41.402 13.716)       MR0
+U$78     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (90 61)               R0
+U$79     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (85 61)               R0
+U$82     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (3 44)                R0
+U$83     CHECK_0.8MM    CHECK_0.8MM    08_CONECTOR (3 48)                R0
