@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 05 00"
+Version="07 02 00"
 Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -64,11 +64,11 @@ Layer=21
 
 [Win_3]
 Type="Board Editor"
-Loc="840 227 1439 626"
+Loc="900 640 1499 1039"
 State=2
 Number=1
-File="C:/sakai/eagle/MyProject/Injector_1.0v/Injector_1.0v.brd"
-View="15.6017 -15.6451 51.7385 24.8404"
+File="c:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.brd"
+View="-2.21132 -11.2275 102.211 66.7044"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -110,11 +110,11 @@ Layer=16
 
 [Win_4]
 Type="Schematic Editor"
-Loc="-600 0 -1 399"
-State=1
+Loc="960 0 1903 1001"
+State=2
 Number=2
-File="C:/sakai/eagle/MyProject/Injector_1.0v/Injector_1.0v.sch"
-View="28.7961 -7.57613 165.976 48.4956"
+File="c:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.sch"
+View="27.3527 360.064 58.8315 384.399"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -153,17 +153,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 28.7961 -7.57613 165.976 48.4956"
-Sheet=1
+Views=" 1: 27.3527 360.064 58.8315 384.399"
+Sheet="1"
 
 [Win_5]
 Type="Control Panel"
-Loc="496 0 1439 855"
+Loc="1179 485 1778 884"
 State=2
 Number=0
 
 [Desktop]
-Screen="2880 900"
+Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
