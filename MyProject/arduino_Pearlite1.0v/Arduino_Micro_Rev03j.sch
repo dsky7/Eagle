@@ -8450,7 +8450,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <part name="U$28" library="MyPOW" deviceset="3V3" device=""/>
 <part name="U$30" library="MyPOW" deviceset="+5V" device=""/>
 <part name="U$32" library="MyPOW" deviceset="VIN" device=""/>
-<part name="SW" library="09_1_switch" deviceset="SKRPACE010" device=""/>
+<part name="RESET" library="09_1_switch" deviceset="SKRPACE010" device=""/>
 <part name="CN1" library="jst-pa" deviceset="B2B-PH-*" device="K-S"/>
 <part name="X1" library="09_2_CRYSTAL" deviceset="X22" device=""/>
 <part name="RP3_1" library="01_R" deviceset="RESISTOR__SMD" device=""/>
@@ -8477,6 +8477,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <part name="C2" library="02_C" deviceset="1608" device=""/>
 <part name="C9" library="02_C" deviceset="1608" device=""/>
 <part name="C14" library="02_C" deviceset="3216" device=""/>
+<part name="I2C1" library="jst-pa" deviceset="B4B-PH-*" device="K-S"/>
 </parts>
 <sheets>
 <sheet>
@@ -8494,7 +8495,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <text x="195.58" y="162.56" size="1.9304" layer="91">#PWM 16bit</text>
 <text x="195.58" y="160.02" size="1.9304" layer="91">#PWM 16bit</text>
 <text x="114.3" y="48.26" size="5.08" layer="105">I2C</text>
-<text x="149.86" y="48.26" size="5.08" layer="105">UART</text>
+<text x="180.34" y="48.26" size="5.08" layer="105">UART</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8568,8 +8569,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <instance part="SUPPLY21" gate="GND" x="294.64" y="180.34"/>
 <instance part="U$1" gate="G$1" x="309.88" y="177.8" rot="R180"/>
 <instance part="U$2" gate="G$1" x="266.7" y="203.2"/>
-<instance part="I2C" gate="G$1" x="127" y="38.1"/>
-<instance part="UART" gate="G$1" x="162.56" y="38.1"/>
+<instance part="I2C" gate="G$1" x="132.08" y="38.1"/>
+<instance part="UART" gate="G$1" x="193.04" y="38.1"/>
 <instance part="CN3" gate="G$1" x="66.04" y="81.28"/>
 <instance part="CN4" gate="G$1" x="66.04" y="66.04"/>
 <instance part="CN5" gate="G$1" x="66.04" y="50.8"/>
@@ -8605,12 +8606,12 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <instance part="SUPPLY29" gate="GND" x="53.34" y="35.56"/>
 <instance part="SUPPLY30" gate="GND" x="86.36" y="35.56"/>
 <instance part="SUPPLY31" gate="GND" x="109.22" y="38.1"/>
-<instance part="SUPPLY32" gate="GND" x="142.24" y="38.1"/>
-<instance part="U$27" gate="G$1" x="147.32" y="40.64"/>
+<instance part="SUPPLY32" gate="GND" x="172.72" y="38.1"/>
+<instance part="U$27" gate="G$1" x="177.8" y="40.64"/>
 <instance part="U$28" gate="G$1" x="152.4" y="241.3"/>
 <instance part="U$30" gate="G$1" x="162.56" y="241.3"/>
 <instance part="U$32" gate="G$1" x="167.64" y="241.3"/>
-<instance part="SW" gate="G$1" x="66.04" y="172.72" rot="R270"/>
+<instance part="RESET" gate="G$1" x="66.04" y="172.72" rot="R270"/>
 <instance part="CN1" gate="G$1" x="99.06" y="20.32"/>
 <instance part="X1" gate="G$1" x="63.5" y="149.86" rot="R270"/>
 <instance part="RP3_1" gate="G$1" x="332.74" y="116.84" rot="R90"/>
@@ -8638,6 +8639,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <instance part="C2" gate="G$1" x="381" y="185.42"/>
 <instance part="C9" gate="G$1" x="370.84" y="66.04"/>
 <instance part="C14" gate="G$1" x="355.6" y="68.58"/>
+<instance part="I2C1" gate="G$1" x="142.24" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -8680,7 +8682,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <label x="73.66" y="157.48" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="U1" gate="G$1" pin="RESET"/>
-<pinref part="SW" gate="G$1" pin="P$1"/>
+<pinref part="RESET" gate="G$1" pin="P$1"/>
 <wire x1="71.12" y1="172.72" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="P$1"/>
 </segment>
@@ -8858,7 +8860,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="45.72" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <junction x="45.72" y="144.78"/>
-<pinref part="SW" gate="G$1" pin="P$2"/>
+<pinref part="RESET" gate="G$1" pin="P$2"/>
 <pinref part="X1" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="1"/>
@@ -9041,12 +9043,15 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="SUPPLY30" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="I2C" gate="G$1" pin="1"/>
 <pinref part="SUPPLY31" gate="GND" pin="GND"/>
+<pinref part="I2C1" gate="G$1" pin="1"/>
+<junction x="132.08" y="40.64"/>
+<wire x1="132.08" y1="40.64" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="142.24" y1="40.64" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="UART" gate="G$1" pin="1"/>
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
 </segment>
@@ -9068,6 +9073,9 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
 <pinref part="R9" gate="G$1" pin="P$1"/>
 <wire x1="294.64" y1="185.42" x2="294.64" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -9203,12 +9211,15 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U$20" gate="G$1" pin="+5V"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="I2C" gate="G$1" pin="2"/>
 <pinref part="U$25" gate="G$1" pin="+5V"/>
+<pinref part="I2C1" gate="G$1" pin="2"/>
+<junction x="132.08" y="38.1"/>
+<wire x1="132.08" y1="38.1" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="38.1" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="38.1" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="UART" gate="G$1" pin="2"/>
 <pinref part="U$27" gate="G$1" pin="+5V"/>
 </segment>
@@ -9478,9 +9489,12 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="(SDA/INT1)PD1"/>
 </segment>
 <segment>
-<wire x1="127" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
 <label x="116.84" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="I2C" gate="G$1" pin="3"/>
+<pinref part="I2C1" gate="G$1" pin="3"/>
+<junction x="132.08" y="35.56"/>
+<wire x1="132.08" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D3/SCL" class="0">
@@ -9490,9 +9504,12 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="(OC0B/SCL/INT0)PD0"/>
 </segment>
 <segment>
-<wire x1="127" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
 <label x="116.84" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="I2C" gate="G$1" pin="4"/>
+<pinref part="I2C1" gate="G$1" pin="4"/>
+<junction x="132.08" y="33.02"/>
+<wire x1="132.08" y1="33.02" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1/TX" class="0">
@@ -9502,8 +9519,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="(TXD1/INT3)PD3"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
-<label x="154.94" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="35.56" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
+<label x="185.42" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="UART" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -9514,8 +9531,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="(RXD1/AIN1/INT2)PD2"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="33.02" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="154.94" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="33.02" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
+<label x="185.42" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="UART" gate="G$1" pin="4"/>
 </segment>
 </net>

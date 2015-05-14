@@ -3825,15 +3825,6 @@ chip</description>
 <pad name="16" x="38.1" y="0" drill="0.9144" diameter="1.5748"/>
 <pad name="17" x="40.64" y="0" drill="0.9144" diameter="1.5748"/>
 </package>
-<package name="DISCLAIMER">
-<text x="0" y="18.161" size="1.27" layer="1" ratio="10">Reference Designs ARE PROVIDED "AS IS" AND "WITH ALL FAULTS. Arduino DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,</text>
-<text x="0" y="16.129" size="1.27" layer="1" ratio="10">REGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE</text>
-<text x="0" y="13.081" size="1.27" layer="1" ratio="10">Arduino may make changes to specifications and product descriptions at any time, without notice. The Customer must not</text>
-<text x="0" y="11.049" size="1.27" layer="1" ratio="10">rely on the absence or characteristics of any features or instructions marked "reserved" or "undefined." Arduino reserves</text>
-<text x="0" y="9.017" size="1.27" layer="1" ratio="10">these for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them.</text>
-<text x="0" y="5.969" size="1.27" layer="1" ratio="10">The product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this information. </text>
-<text x="0" y="2.921" size="1.6764" layer="1">ARDUINO is a registered trademark.</text>
-</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA32U4">
@@ -4058,15 +4049,6 @@ chip</description>
 <pin name="15" x="10.16" y="-17.78" visible="pin" length="middle" direction="pas" rot="R180"/>
 <pin name="16" x="10.16" y="-20.32" visible="pin" length="middle" direction="pas" rot="R180"/>
 <pin name="17" x="10.16" y="-22.86" visible="pin" length="middle" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="DISCLAIMER">
-<text x="0" y="33.02" size="3.048" layer="91">Reference Designs ARE PROVIDED "AS IS" AND "WITH ALL FAULTS. Arduino DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,</text>
-<text x="0" y="22.86" size="3.048" layer="91">Arduino may make changes to specifications and product descriptions at any time, without notice. The Customer must not</text>
-<text x="0" y="27.94" size="3.048" layer="91">REGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE</text>
-<text x="0" y="17.78" size="3.048" layer="91">rely on the absence or characteristics of any features or instructions marked "reserved" or "undefined." Arduino reserves</text>
-<text x="0" y="12.7" size="3.048" layer="91">these for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them.</text>
-<text x="0" y="7.62" size="3.048" layer="91">The product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this information. </text>
-<text x="0" y="0" size="3.81" layer="91">ARDUINO is a registered trademark.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5820,18 +5802,6 @@ VDC 12V - 50mA</description>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DISCLAIMER">
-<gates>
-<gate name="G$1" symbol="DISCLAIMER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DISCLAIMER">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19571,6 +19541,65 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="jst">
+<packages>
+<package name="B3B-ZR">
+<description>&lt;b&gt;JST ZH Connector&lt;/b&gt;
+Top Entry type&lt;br&gt;
+3 pol, 1.5 mm Pitch&lt;br&gt;
+Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://www.jst-mfg.com/product/pdf/eng/eZH.pdf&lt;/a&gt;</description>
+<wire x1="-3" y1="1.3" x2="3" y2="1.3" width="0.127" layer="21"/>
+<wire x1="3" y1="1.3" x2="3" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="3" y1="-2.2" x2="-3" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2.2" x2="-3" y2="1.3" width="0.127" layer="21"/>
+<pad name="1" x="-1.5" y="0" drill="0.7" diameter="1.1"/>
+<pad name="2" x="0" y="0" drill="0.7" diameter="1.1"/>
+<pad name="3" x="1.5" y="0" drill="0.7" diameter="1.1"/>
+<text x="-3.75" y="1.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.75" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="B3B-ZR">
+<pin name="1" x="-7.62" y="2.54" visible="pin" length="middle"/>
+<pin name="2" x="-7.62" y="0" visible="pin" length="middle"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pin" length="middle"/>
+<text x="-2.54" y="5.842" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.858" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<circle x="-2.54" y="2.54" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B3B-ZR" prefix="CON">
+<description>&lt;b&gt;JST-ZH Connector&lt;/b&gt;&lt;br&gt;
+3 pol, 1.5mm pitch&lt;br&gt;
+Package: &lt;b&gt;B3B-ZR&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eZH.pdf"&gt;http://www.jst-mfg.com/product/pdf/eng/eZH.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B3B-ZR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3B-ZR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19662,7 +19691,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U$1" library="MyPOW" deviceset="+5V" device=""/>
 <part name="U$2" library="MyPOW" deviceset="VIN" device=""/>
 <part name="R2" library="SmartPrj" deviceset="R-EU_" device="R0402" value="10K"/>
-<part name="U$3" library="SmartPrj" deviceset="DISCLAIMER" device=""/>
+<part name="CON1" library="jst" deviceset="B3B-ZR" device=""/>
+<part name="CON2" library="jst" deviceset="B3B-ZR" device=""/>
+<part name="CON3" library="jst" deviceset="B3B-ZR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19839,7 +19870,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="360.68" y="66.04" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="360.68" y="73.66" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="U$3" gate="G$1" x="17.78" y="2.54"/>
+<instance part="CON1" gate="G$1" x="45.72" y="40.64"/>
+<instance part="CON2" gate="G$1" x="63.5" y="40.64"/>
+<instance part="CON3" gate="G$1" x="83.82" y="40.64"/>
 </instances>
 <busses>
 </busses>

@@ -8450,13 +8450,13 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <part name="U$28" library="MyPOW" deviceset="3V3" device=""/>
 <part name="U$30" library="MyPOW" deviceset="+5V" device=""/>
 <part name="U$32" library="MyPOW" deviceset="VIN" device=""/>
-<part name="U$6" library="09_1_switch" deviceset="SKRPACE010" device=""/>
+<part name="SW" library="09_1_switch" deviceset="SKRPACE010" device=""/>
 <part name="CN1" library="jst-pa" deviceset="B2B-PH-*" device="K-S"/>
-<part name="U$7" library="09_2_CRYSTAL" deviceset="X22" device=""/>
-<part name="U$8" library="01_R" deviceset="RESISTOR__SMD" device=""/>
-<part name="U$33" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="X1" library="09_2_CRYSTAL" deviceset="X22" device=""/>
+<part name="RP3_1" library="01_R" deviceset="RESISTOR__SMD" device=""/>
+<part name="RP3_2" library="01_R" deviceset="RESISTOR__SMD" device=""/>
 <part name="R2" library="01_R" deviceset="RESISTOR__SMD" device=""/>
-<part name="U$34" library="con-hirose1" deviceset="MICRO-USB-SHIELD-" device="ZX62R-B-5P"/>
+<part name="USB" library="con-hirose1" deviceset="MICRO-USB-SHIELD-" device="ZX62R-B-5P"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="R4" library="01_R" deviceset="RESISTOR__SMD" device=""/>
 <part name="R5" library="01_R" deviceset="RESISTOR__SMD" device=""/>
@@ -8610,14 +8610,14 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <instance part="U$28" gate="G$1" x="152.4" y="241.3"/>
 <instance part="U$30" gate="G$1" x="162.56" y="241.3"/>
 <instance part="U$32" gate="G$1" x="167.64" y="241.3"/>
-<instance part="U$6" gate="G$1" x="66.04" y="172.72" rot="R270"/>
+<instance part="SW" gate="G$1" x="66.04" y="172.72" rot="R270"/>
 <instance part="CN1" gate="G$1" x="99.06" y="20.32"/>
-<instance part="U$7" gate="G$1" x="63.5" y="149.86" rot="R270"/>
-<instance part="U$8" gate="G$1" x="332.74" y="116.84" rot="R90"/>
-<instance part="U$33" gate="G$1" x="332.74" y="109.22" rot="R90"/>
+<instance part="X1" gate="G$1" x="63.5" y="149.86" rot="R270"/>
+<instance part="RP3_1" gate="G$1" x="332.74" y="116.84" rot="R90"/>
+<instance part="RP3_2" gate="G$1" x="332.74" y="109.22" rot="R90"/>
 <instance part="R2" gate="G$1" x="363.22" y="71.12"/>
-<instance part="U$34" gate="G$1" x="408.94" y="68.58"/>
-<instance part="U$34" gate="G$2" x="388.62" y="111.76"/>
+<instance part="USB" gate="G$1" x="408.94" y="68.58"/>
+<instance part="USB" gate="G$2" x="388.62" y="111.76"/>
 <instance part="SUPPLY13" gate="GND" x="401.32" y="63.5"/>
 <instance part="R4" gate="G$1" x="238.76" y="114.3" rot="R90"/>
 <instance part="R5" gate="G$1" x="238.76" y="124.46" rot="R90"/>
@@ -8680,7 +8680,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <label x="73.66" y="157.48" size="1.778" layer="95"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="U1" gate="G$1" pin="RESET"/>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="SW" gate="G$1" pin="P$1"/>
 <wire x1="71.12" y1="172.72" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="P$1"/>
 </segment>
@@ -8858,8 +8858,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="45.72" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <junction x="45.72" y="144.78"/>
-<pinref part="U$6" gate="G$1" pin="P$2"/>
-<pinref part="U$7" gate="G$1" pin="2"/>
+<pinref part="SW" gate="G$1" pin="P$2"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
@@ -8975,7 +8975,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="373.38" y1="96.52" x2="416.56" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="96.52" x2="416.56" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<pinref part="U$34" gate="G$2" pin="5"/>
+<pinref part="USB" gate="G$2" pin="5"/>
 <junction x="383.54" y="106.68"/>
 </segment>
 <segment>
@@ -9051,18 +9051,18 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pinref part="SUPPLY32" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$34" gate="G$1" pin="S1"/>
+<pinref part="USB" gate="G$1" pin="S1"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<pinref part="U$34" gate="G$1" pin="S2"/>
+<pinref part="USB" gate="G$1" pin="S2"/>
 <wire x1="401.32" y1="66.04" x2="403.86" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$34" gate="G$1" pin="S3"/>
+<pinref part="USB" gate="G$1" pin="S3"/>
 <wire x1="403.86" y1="66.04" x2="406.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$34" gate="G$1" pin="S4"/>
+<pinref part="USB" gate="G$1" pin="S4"/>
 <wire x1="406.4" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<pinref part="U$7" gate="G$1" pin="4"/>
+<pinref part="X1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
@@ -9275,7 +9275,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="63.5" y="154.94"/>
 <label x="106.68" y="152.4" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="XTAL2"/>
-<pinref part="U$7" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -9289,7 +9289,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="63.5" y="144.78"/>
 <label x="106.68" y="147.32" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="XTAL1"/>
-<pinref part="U$7" gate="G$1" pin="3"/>
+<pinref part="X1" gate="G$1" pin="3"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -9310,8 +9310,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="358.14" y="114.3"/>
 <label x="370.84" y="114.3" size="1.778" layer="95"/>
 <pinref part="Z2" gate="G$1" pin="1"/>
-<pinref part="U$8" gate="G$1" pin="P$1"/>
-<pinref part="U$34" gate="G$2" pin="2"/>
+<pinref part="RP3_1" gate="G$1" pin="P$1"/>
+<pinref part="USB" gate="G$2" pin="2"/>
 <junction x="383.54" y="114.3"/>
 </segment>
 </net>
@@ -9325,8 +9325,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <junction x="347.98" y="111.76"/>
 <label x="370.84" y="111.76" size="1.778" layer="95"/>
 <pinref part="Z1" gate="G$1" pin="1"/>
-<pinref part="U$33" gate="G$1" pin="P$1"/>
-<pinref part="U$34" gate="G$2" pin="3"/>
+<pinref part="RP3_2" gate="G$1" pin="P$1"/>
+<pinref part="USB" gate="G$2" pin="3"/>
 <junction x="383.54" y="111.76"/>
 </segment>
 </net>
@@ -9334,7 +9334,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <segment>
 <wire x1="330.2" y1="116.84" x2="309.88" y2="116.84" width="0.1524" layer="91"/>
 <label x="309.88" y="116.84" size="1.778" layer="95"/>
-<pinref part="U$8" gate="G$1" pin="P$2"/>
+<pinref part="RP3_1" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="116.84" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
@@ -9346,7 +9346,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <segment>
 <wire x1="330.2" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
 <label x="309.88" y="109.22" size="1.778" layer="95"/>
-<pinref part="U$33" gate="G$1" pin="P$2"/>
+<pinref part="RP3_2" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="116.84" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
@@ -9550,7 +9550,7 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="381" y1="91.44" x2="355.6" y2="91.44" width="0.1524" layer="91"/>
 <junction x="381" y="116.84"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-<pinref part="U$34" gate="G$2" pin="1"/>
+<pinref part="USB" gate="G$2" pin="1"/>
 <junction x="383.54" y="116.84"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 </segment>
