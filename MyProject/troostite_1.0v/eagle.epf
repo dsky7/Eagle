@@ -7,75 +7,30 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="c:/gitData/Eagle/MyProject/ArduinoMicroShild1.0v/drilegend.lbr"
 
 [Win_1]
 Type="CAM Processor"
-Loc="412 231 1011 660"
-State=3
+Loc="652 321 1251 750"
+State=2
 Number=4
-File="troostite_1.0v.brd"
-Job="C:/Program Files (x86)/EAGLE-6.5.0/cam/Seeed_Gerber_Generater_2-layer.cam"
+File="C:/gitData/Eagle/MyProject/ArduinoMicroShild1.0v/ArduinoMicroShield1.0v.brd"
+Job="C:/EAGLE-7.2.0/cam/excellon.cam"
 
 [Win_2]
-Type="Library Editor"
-Loc="0 0 599 399"
-State=3
-Number=3
-File="H:/eagle/MyLibrary/12_module.lbr"
-View="-2.63527 10.099 13.0822 29.4527"
-WireWidths=" 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0 0.2 0.1 0.05 0.254 0.127"
-PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-PadDrills=" 0.5 0.6 0.7 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.9 0.8"
-ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
-PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
-PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
-MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
-DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
-DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
-DimensionExtLengths=" 1.27 2.54 1 2 3 0"
-DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
-SmdSizes=" 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635 1.7 3.5 1.8 3.5 1.2 4 1.3 2"
-WireBend=4
-WireBendSet=0
-WireCap=1
-MiterStyle=0
-PadShape=1
-ViaShape=0
-PolygonPour=0
-PolygonRank=0
-PolygonThermals=1
-PolygonOrphans=0
-TextRatio=8
-DimensionUnit=1
-DimensionPrecision=2
-DimensionShowUnit=0
-PinDirection=3
-PinFunction=0
-PinLength=1
-PinVisible=1
-SwapLevel=0
-ArcDirection=0
-AddLevel=2
-PadsSameType=0
-Layer=21
-
-[Win_3]
 Type="Board Editor"
-Loc="900 640 1499 1039"
-State=2
+Loc="-8 -8 935 954"
+State=3
 Number=1
-File="c:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.brd"
-View="-2.21132 -11.2275 102.211 66.7044"
-WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
+File="c:/gitData/Eagle/MyProject/ArduinoMicroShild1.0v/ArduinoMicroShield1.0v.brd"
+View="-52.2407 -61.8638 92.0397 117.134"
+WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.3 0.1016"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
 HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+TextSizes=" 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 3.81 5.08 6.4516 2.54 1 1.778 4"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
@@ -84,7 +39,7 @@ DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
 DimensionExtLengths=" 1.27 2.54 1 2 3 0"
 DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
 SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
-WireBend=0
+WireBend=2
 WireBendSet=0
 WireCap=1
 MiterStyle=0
@@ -106,15 +61,15 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=47
 
-[Win_4]
+[Win_3]
 Type="Schematic Editor"
-Loc="960 0 1903 1001"
-State=2
+Loc="0 0 943 1001"
+State=0
 Number=2
-File="c:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.sch"
-View="27.3527 360.064 58.8315 384.399"
+File="c:/gitData/Eagle/MyProject/ArduinoMicroShild1.0v/ArduinoMicroShield1.0v.sch"
+View="3.24823 51.8288 46.923 82.63"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -153,12 +108,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 27.3527 360.064 58.8315 384.399"
+Views=" 1: 3.24823 51.8288 46.923 82.63"
 Sheet="1"
 
-[Win_5]
+[Win_4]
 Type="Control Panel"
-Loc="1179 485 1778 884"
+Loc="1034 79 1633 478"
 State=2
 Number=0
 
@@ -168,4 +123,3 @@ Window="Win_1"
 Window="Win_2"
 Window="Win_3"
 Window="Win_4"
-Window="Win_5"
