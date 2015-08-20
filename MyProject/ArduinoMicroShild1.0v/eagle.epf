@@ -90,12 +90,6 @@ UsedLibrary="C:/gitData/Eagle/MyLibrary/transistor_array.lbr"
 UsedLibrary="C:/gitData/Eagle/MyLibrary/zip.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="62 0 728 689"
-State=0
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Loc="714 0 1349 729"
 State=2
@@ -141,10 +135,10 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
 Loc="62 0 697 729"
-State=2
+State=1
 Number=1
 File="C:/gitData/Eagle/MyProject/SFT_MainBoard1.0v/SFT_MainBoard1.0v.sch"
 View="172.492 181.376 226.887 223.426"
@@ -188,6 +182,12 @@ PadsSameType=0
 Layer=91
 Views=" 1: 172.492 181.376 226.887 223.426"
 Sheet="1"
+
+[Win_3]
+Type="Control Panel"
+Loc="62 0 728 689"
+State=2
+Number=0
 
 [Desktop]
 Screen="1366 768"
