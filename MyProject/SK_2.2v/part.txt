@@ -1,0 +1,56 @@
+Partlist
+
+Exported from SK_1.0v.sch at 2016/03/15 9:39
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                       Device                      Package        Library      Sheet
+
+C1       22uF                        1608                        1608           02_C         1
+C2       1005                        1005                        1005           02_C         1
+C3       1005                        1005                        1005           02_C         1
+C5       22uF                        1608                        1608           02_C         1
+C6       1nF                         1005                        1005           02_C         1
+C7       4.7uF                       1005                        1005           02_C         1
+C8       4.7uF                       1005                        1005           02_C         1
+C12      1005                        1005                        1005           02_C         1
+C13      1005                        1005                        1005           02_C         1
+CN1      JST-PH2-CENTER              JST-PH2-CENTER              JST-PH2-CENTER jst-ph (1)   1
+CN4      MICRO-USB-SHIELD-ZX62R-B-5P MICRO-USB-SHIELD-ZX62R-B-5P ZX62R-B-5P     con-hirose1  1
+D1       SOD-123                     SOD-123                     SOD_123        15_DIODE     1
+D2       SOD-123                     SOD-123                     SOD_123        15_DIODE     1
+FPN      SI1553CDL                   SI1553CDL                   SOT363         06_FET       1
+FPP      FDC6506P                    FDC6506P                    SOT23-6        06_FET       1
+IC1      ATMEGA32U4                  ATMEGA32U4                  QFN-44-7X7     04_IC        1
+IC2      MCP73831                    MCP73831                    SOT23-5L       04_IC        1
+IC3      LM2735                      LM2735                      SOT23-5L       04_IC        1
+L1       22uH                        D63                         TOKO           03_L         1
+LED1     NEO_FLAT                    NEO_FLAT                    NEO_FLAT       10_LED       1
+LED2     NEO_FLAT                    NEO_FLAT                    NEO_FLAT       10_LED       1
+LED3     NEO_FLAT                    NEO_FLAT                    NEO_FLAT       10_LED       1
+NCH1     CHIP_FET                    CHIP_FET                    SOT23          06_FET       1
+NCH2     CHIP_FET                    CHIP_FET                    SOT23          06_FET       1
+R1       2K                          RESISTOR_1005               1005           01_R         1
+R2       100K                        RESISTOR_1005               1005           01_R         1
+R3       10K                         RESISTOR_1005               1005           01_R         1
+R5       10K                         RESISTOR_1005               1005           01_R         1
+R8       10K                         RESISTOR_1005               1005           01_R         1
+R9       10K                         RESISTOR_1005               1005           01_R         1
+R10      100K                        RESISTOR_1005               1005           01_R         1
+R11      RESISTOR_1005               RESISTOR_1005               1005           01_R         1
+R13      22                          RESISTOR_1005               1005           01_R         1
+R14      22                          RESISTOR_1005               1005           01_R         1
+R15      10K                         RESISTOR_1005               1005           01_R         1
+R16      RESISTOR_1005               RESISTOR_1005               1005           01_R         1
+R17      30K                         RESISTOR_1005               1005           01_R         1
+S1                                   31-XX                       B3F-31XX       09_1_switch  1
+U$2      B2B-ZR-CENTER               B2B-ZR-CENTER               B2B-ZR-CENTER  jst          1
+U$3      ICSP                        ICSP                        ICSP           08_CONECTOR  1
+U$8      FA-238                      FA-238                      FA-238         09_2_CRYSTAL 1
+U$45                                 1608                        1608           02_C         1
+U$60                                 1608                        1608           02_C         1
+U$62                                 1608                        1608           02_C         1
+U$67     CHIP_FET                    CHIP_FET                    SOT23          06_FET       1
+U$70     100K                        RESISTOR_1005               1005           01_R         1

@@ -1,0 +1,65 @@
+Partlist
+
+Exported from CityFireFly_3.0v.brd at 2016/02/23 21:54
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value               Package            Library      Position (mm)         Orientation
+
+BLE      BLE_SERIAL2_NO_HOLE BLESERIAL2_NO_HOLE 12_module    (30 5)                MR0
+C1       22uF                1608               02_C         (23.9 11.4)           MR270
+C2       10pF                1005               02_C         (43.7 3.9)            MR270
+C3       10pF                1005               02_C         (49.5 4)              MR90
+C5       22uF                1608               02_C         (26.6 16.4)           MR270
+C6       1nF                 1005               02_C         (17.6 17.9)           R270
+C7       4.7uF               1005               02_C         (6.3 4.6)             MR0
+C8       4.7uF               1005               02_C         (15.7 6.6)            MR180
+C12      1uF                 1005               02_C         (43.9 17.9)           MR270
+C13      0.1uF               1005               02_C         (35.1 15)             MR90
+C14      0.01uF              1608               02_C         (54.4 15.7)           R90
+C15      10uF                1608               02_C         (52.7 8.1)            R180
+C16      1uF                 1005               02_C         (56.8 8.3)            R180
+C18      0.1uF               1005               02_C         (37.1 10)             R270
+C19      0.1uF               1005               02_C         (38.6 19.1)           MR90
+C20      0.1uF               1005               02_C         (31.2 14.9)           MR180
+C21      47uF                1608               02_C         (2.8 12)              R90
+C22      47uF                1608               02_C         (47.6 6.7)            R90
+C23      10uF                1608               02_C         (47.9 8)              MR90
+CN1                          JST-PH2            jst-ph (1)   (9.4 16.2)            MR0
+D1       SOD-123             SOD_123            15_DIODE     (24 20)               MR180
+D2       SOD-123             SOD_123            15_DIODE     (20.4 4.2)            R90
+FN1      CHIP_FET            SOT23              06_FET       (23.9 5.5)            MR0
+FN3      CHIP_FET            SOT23              06_FET       (35.2 18.3)           MR180
+FN4      CHIP_FET            SOT23              06_FET       (14.2 8.5)            R270
+FP1      CHIP_FET_P          SOT23              06_FET       (9 6.5)               MR0
+FP2      CHIP_FET_P          SOT23              06_FET       (20.7 5.5)            MR0
+FP3      CHIP_FET_P          SOT23              06_FET       (32.1 18.3)           MR180
+IC1      ATMEGA32U4          QFN-44-7X7         04_IC        (39.5 11)             MR315
+IC2      MCP73831            SOT23-5L           04_IC        (13.6 3.6)            MR90
+IC3      LM2735              SOT23-5L           04_IC        (23.5 16.5)           MR180
+IC4      TAR5SB              SSOP5-P-0.95       04_IC        (55.6 12)             R90
+L1       D63                 TOKO               03_L         (17.5 17)             MR90
+LED1     3MMLED              3MM                10_LED       (27 11)               R90
+LED2     NEO_FLAT            NEO_FLAT           10_LED       (56.5 11)             MR270
+LED3     NEO_FLAT            NEO_FLAT           10_LED       (3.5 11)              MR90
+R1       2K                  1005               01_R         (16.4 2.3)            MR0
+R2       100K                1005               01_R         (25.7 14)             MR270
+R3       10K                 1005               01_R         (20.2 2.4)            MR0
+R4       1.5k                1005               01_R         (35.2 4)              R270
+R5       10K                 1005               01_R         (9 4)                 MR0
+R6       330                 1005               01_R         (29.9 7.4)            R0
+R8       10K                 1005               01_R         (35.1 20.7)           MR0
+R9       10K                 1005               01_R         (33.9 5.5)            MR225
+R11      1K                  1005               01_R         (29.9 12.7)           R180
+R13      22                  1005               01_R         (20.2 15.6)           R180
+R14      22                  1005               01_R         (20.2 14.7)           R180
+R15      10K                 1005               01_R         (15.4 16.8)           R90
+R16      10K                 1005               01_R         (23.2 4.8)            R270
+R17      1K                  1005               01_R         (36.8 3.2)            R0
+R18      30k                 1005               01_R         (16.5 17.9)           R90
+SW2      SKRPACE010          SKRP               09_1_switch  (41 11)               R270
+U$3      ICSP                ICSP               08_CONECTOR  (48.5 16.5)           MR90
+USB      USB_MICRO_VERTICAL  USB_MICRO_VERTICAL 08_CONECTOR  (19 11)               R0
+XTAL     FA-238              FA-238             09_2_CRYSTAL (46.5 4)              MR0

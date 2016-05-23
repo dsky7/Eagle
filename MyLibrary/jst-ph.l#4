@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -296,45 +296,45 @@
 <text x="0" y="0" size="1.27" layer="21" align="center">&gt;NAME</text>
 </package>
 <package name="JST-PA12">
-<wire x1="-23.555" y1="-3.1" x2="-20.555" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-20.555" y1="-3.1" x2="-1.035" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-1.035" y1="-3.1" x2="1.965" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-23.555" y1="2.2" x2="1.965" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="-3.1" x2="-20.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-20.5" y1="-3.1" x2="-1.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-3.1" x2="1.965" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="2.2" x2="1.965" y2="2.2" width="0.127" layer="21"/>
 <wire x1="1.965" y1="2.2" x2="1.965" y2="0.5" width="0.127" layer="21"/>
 <wire x1="1.965" y1="0.5" x2="1.965" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="1.965" y1="-0.4" x2="1.965" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-23.555" y1="2.2" x2="-23.555" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-23.555" y1="0.5" x2="-23.555" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-23.555" y1="-0.4" x2="-23.555" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-22.955" y1="1.6" x2="1.365" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-22.955" y1="1.6" x2="-22.955" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-22.955" y1="0.5" x2="-22.955" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-22.955" y1="-0.4" x2="-22.955" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-22.955" y1="-2.5" x2="-20.555" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="2.2" x2="-23.917" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="0.5" x2="-23.917" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="-0.4" x2="-23.917" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-23.317" y1="1.6" x2="1.365" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-23.317" y1="1.6" x2="-23.317" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-23.317" y1="0.5" x2="-23.317" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-23.317" y1="-0.4" x2="-23.317" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-23.317" y1="-2.5" x2="-20.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.365" y1="1.6" x2="1.365" y2="0.5" width="0.127" layer="21"/>
 <wire x1="1.365" y1="0.5" x2="1.365" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="1.365" y1="-0.4" x2="1.365" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-23.555" y1="-0.4" x2="-22.955" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-23.555" y1="0.5" x2="-22.955" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="-0.4" x2="-23.317" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-23.917" y1="0.5" x2="-23.317" y2="0.5" width="0.127" layer="21"/>
 <wire x1="1.365" y1="0.5" x2="1.965" y2="0.5" width="0.127" layer="21"/>
 <wire x1="1.365" y1="-0.4" x2="1.965" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-20.555" y1="-2.5" x2="-20.555" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-1.035" y1="-2.5" x2="-1.035" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-1.035" y1="-2.5" x2="1.365" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-20.5" y1="-2.5" x2="-20.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="1.365" y2="-2.5" width="0.127" layer="21"/>
 <pad name="5" x="-7.985" y="0" drill="0.8" shape="octagon"/>
 <pad name="4" x="-5.985" y="0" drill="0.8" shape="octagon"/>
 <pad name="3" x="-3.985" y="0" drill="0.8" shape="octagon"/>
 <pad name="2" x="-1.985" y="0" drill="0.8" shape="octagon"/>
 <pad name="6" x="-9.985" y="0" drill="0.8" shape="octagon"/>
 <pad name="1" x="0.015" y="0" drill="0.8" shape="square"/>
-<text x="-11.43" y="-1.5" size="1" layer="25" align="center">&gt;NAME</text>
+<text x="-11.43" y="-1.8" size="1.25" layer="25" align="center">&gt;NAME</text>
 <circle x="1.015" y="-1.9" radius="0.1" width="0.127" layer="21"/>
 <pad name="7" x="-11.985" y="0" drill="0.8" shape="octagon"/>
 <pad name="8" x="-13.985" y="0" drill="0.8" shape="octagon"/>
-<pad name="9" x="-15.89" y="0" drill="0.8" shape="octagon"/>
-<pad name="10" x="-17.795" y="0" drill="0.8" shape="octagon"/>
-<pad name="11" x="-19.7" y="0" drill="0.8" shape="octagon"/>
-<pad name="12" x="-21.605" y="0" drill="0.8" shape="octagon"/>
+<pad name="9" x="-16" y="0" drill="0.8" shape="octagon"/>
+<pad name="10" x="-18" y="0" drill="0.8" shape="octagon"/>
+<pad name="11" x="-20" y="0" drill="0.8" shape="octagon"/>
+<pad name="12" x="-22" y="0" drill="0.8" shape="octagon"/>
 </package>
 </packages>
 <symbols>

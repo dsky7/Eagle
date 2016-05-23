@@ -1,0 +1,65 @@
+Partlist
+
+Exported from CityFireFly_1.0v.brd at 2016/02/04 17:51
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package          Library      Position (mm)         Orientation
+
+C1       22uF           1608             02_C         (63 17)               MR270
+C2                      1608             02_C         (28.5 3)              R270
+C3                      1608             02_C         (24.5 7)              R270
+C5       22uF           1608             02_C         (54 22)               MR90
+C6       1nF            1608             02_C         (54 18)               MR270
+C7       4.7uF          1608             02_C         (38 19)               MR90
+C8       4.7uF          1608             02_C         (38 10.5)             MR270
+C12                     1608             02_C         (28.1 26)             R270
+C13                     1608             02_C         (42.4 26.3)           R90
+C14                     1608             02_C         (15 10.5)             R180
+C15                     1608             02_C         (19 14)               R270
+C16                     1608             02_C         (11 9.5)              R270
+CN1                     JST-PH2          jst-ph (1)   (43 3)                R0
+CN2                     8P-2.54-MALE-D90 Connector    (8 16)                MR0
+D1       SOD-123        SOD_123          15_DIODE     (61.5 13)             R180
+D2       SOD-123        SOD_123          15_DIODE     (12.2 18.9)           MR270
+IC1      ATMEGA32U4-AU  TQFP44           mega32U4     (37 16)               R316
+IC2      MCP73831       SOT23-5L         04_IC        (37 14.5)             MR180
+IC3      LM2735         SOT23-5L         04_IC        (58 18)               MR0
+IC4      TAR5SB         SSOP5-P-0.95     04_IC        (14.5 14)             R270
+L1       22uH           KYORITU          03_L         (60.1 5.3)            R0
+NCH1     CHIP_FET       SOT23            06_FET       (21.5 15)             MR0
+NCH3     CHIP_FET       SOT23            06_FET       (33.5 20)             MR180
+NCH4     CHIP_FET       SOT23            06_FET       (44 8)                R0
+PCH1     CHIP_FET_P     SOT23            06_FET       (64 21.5)             MR270
+PCH2     CHIP_FET_P     SOT23            06_FET       (17 15)               MR0
+PCH3     CHIP_FET_P     SOT23            06_FET       (29 20)               MR180
+R1       2K             1608             01_R         (36 10.5)             MR90
+R2       100K           1608             01_R         (58 22)               MR180
+R3       10K            1608             01_R         (17 11.8)             MR0
+R5       10K            1608             01_R         (67 21.5)             MR270
+R8       10K            1608             01_R         (33.5 23)             MR0
+R9       10K            1608             01_R         (31.9 15.5)           MR0
+R10                     1608             01_R         (47 27.1)             MR0
+R11                     1608             01_R         (47 28.5)             MR180
+R13                     1608             01_R         (12 30)               MR0
+R14                     1608             01_R         (12 29.4)             R180
+R15      10K            1608             01_R         (48 14)               MR90
+R16                     1608             01_R         (33.8 3.2)            R90
+R16A     30K            1608             01_R         (51 18)               MR90
+R16B                    1608             01_R         (49.5 18)             MR270
+R16C                    1608             01_R         (48 18)               MR90
+R17                     1608             01_R         (21 6)                MR180
+R18                     1608             01_R         (18 6)                MR180
+SW1      SKRPACE010     SKRP             09_1_switch  (54 12)               R0
+U$3      ICSP           ICSP             08_CONECTOR  (19 25)               MR270
+U$5      REEDSWITCH_MKA MKA-10110        09_1_switch  (73 16)               R90
+U$6      BLE_SERIAL2    BLESERIAL2       12_module    (17 7)                R0
+U$32     NEO_FLAT       NEO_FLAT         10_LED       (92 16)               R270
+U$67     CHECK_0.8MM    CHECK_0.8MM      08_CONECTOR  (13.5 1)              R270
+U$68     CHECK_0.8MM    CHECK_0.8MM      08_CONECTOR  (16.5 1)              R270
+U$69     CHECK_0.8MM    CHECK_0.8MM      08_CONECTOR  (30 4.5)              R270
+U$70     CHECK_0.8MM    CHECK_0.8MM      08_CONECTOR  (24.5 9.5)            R270
+U$71     CHECK_0.8MM    CHECK_0.8MM      08_CONECTOR  (19.5 1)              R270
+XTAL     FA-238         FA-238           09_2_CRYSTAL (27.5 7)              R270

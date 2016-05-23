@@ -1,0 +1,11 @@
+# dxfimport generated script file.
+Grid mic 1 off;
+Set Wire_Bend 2;
+CHANGE LAYER 16;
+Change Font Vector;
+Arc CCW 400 (27088.28 54814.81) (42911.72 3185.19) (8687.85 22944.34);
+Arc CCW 400 (61312.15 22944.34) (8687.85 35055.66) (42911.72 54814.81);
+Arc CCW 400 (16599.58 9240.84) (53400.42 48759.16) (53400.42 9240.84);
+Window Fit;
+# lines=0, arcs=3, circles=0, polylines=0
+Grid last;

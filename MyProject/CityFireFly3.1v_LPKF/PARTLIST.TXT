@@ -1,0 +1,65 @@
+Partlist
+
+Exported from CityFireFly_3.1v_LPKF.sch at 2016/03/11 16:50
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                   Device                  Package                         Library      Sheet
+
+BLE      BLE_SERIAL2_NO_HOLE     BLE_SERIAL2_NO_HOLE     BLESERIAL2_NO_HOLE              12_module    1
+C1       22uF                    1608                    1608                            02_C         1
+C2       10pF                    1005                    1005                            02_C         1
+C3       10pF                    1005                    1005                            02_C         1
+C5       22uF                    1608                    1608                            02_C         1
+C6       1nF                     1005                    1005                            02_C         1
+C7       4.7uF                   1005                    1005                            02_C         1
+C8       4.7uF                   1005                    1005                            02_C         1
+C12      1uF                     1005                    1005                            02_C         1
+C13      0.1uF                   1005                    1005                            02_C         1
+C14      0.01uF                  1608                    1608                            02_C         1
+C15      10uF                    1608                    1608                            02_C         1
+C16      1uF                     1005                    1005                            02_C         1
+C18      0.1uF                   1005                    1005                            02_C         1
+C19      0.1uF                   1005                    1005                            02_C         1
+C20      0.1uF                   1005                    1005                            02_C         1
+C21      0.1uF                   1005                    1005                            02_C         1
+C22      47uF                    1608                    1608                            02_C         1
+C23      10uF                    1608                    1608                            02_C         1
+CN1                              S2B-PH-K-S              S2B-PH-K-S                      jst-ph1      1
+D1       SOD-123                 SOD-123                 SOD_123                         15_DIODE     1
+D2       SOD-123                 SOD-123                 SOD_123                         15_DIODE     1
+FN1      CHIP_FET                CHIP_FET                SOT23                           06_FET       1
+FN4      CHIP_FET                CHIP_FET                SOT23                           06_FET       1
+FNP1     SI1553CDL               SI1553CDL               SOT363                          06_FET       1
+FPP      FDC6506P                FDC6506P                SOT23-6                         06_FET       1
+IC1      ATMEGA32U4              ATMEGA32U4              QFN-44-7X7                      04_IC        1
+IC2      MCP73831                MCP73831                SOT23-5L                        04_IC        1
+IC3      LM2735                  LM2735                  SOT23-5L                        04_IC        1
+IC4      TAR5SB                  TAR5SB                  SSOP5-P-0.95                    04_IC        1
+J1                               HEADER-4PFEMALE-LEFT    4P-2.0-65/35MIL-90D-FEMALE-LEFT Connector    1
+J2                               HEADER-4PFEMALE-LEFT    4P-2.0-65/35MIL-90D-FEMALE-LEFT Connector    1
+L1       D63                     D63                     TOKO                            03_L         1
+LED1     3MMLED                  3MMLED                  3MM                             10_LED       1
+R1       2K                      RESISTOR_1005           1005                            01_R         1
+R2       100K                    RESISTOR_1005           1005                            01_R         1
+R3       10K                     RESISTOR_1005           1005                            01_R         1
+R4       1.5k                    RESISTOR_1005           1005                            01_R         1
+R5       10K                     RESISTOR_1005           1005                            01_R         1
+R6       330                     RESISTOR_1005           1005                            01_R         1
+R8       10K                     RESISTOR_1005           1005                            01_R         1
+R9       10K                     RESISTOR_1005           1005                            01_R         1
+R11      1K                      RESISTOR_1005           1005                            01_R         1
+R13      22                      RESISTOR_1005           1005                            01_R         1
+R14      22                      RESISTOR_1005           1005                            01_R         1
+R15      10K                     RESISTOR_1005           1005                            01_R         1
+R16      10K                     RESISTOR_1005           1005                            01_R         1
+R17      1K                      RESISTOR_1005           1005                            01_R         1
+R18      30k                     RESISTOR_1005           1005                            01_R         1
+SW2      SKRPACE010              SKRPACE010              SKRP                            09_1_switch  1
+U$3      ICSP                    ICSP                    ICSP                            08_CONECTOR  1
+U$8      USB_MICRO_VERTICAL_LPKF USB_MICRO_VERTICAL_LPKF USB_MICRO_VERTICAL_LPKF         08_CONECTOR  1
+U$32     USB_MICRO_VERTICAL      USB_MICRO_VERTICAL      USB_MICRO_VERTICAL              08_CONECTOR  1
+USB      USB_MICRO_VERTICAL_D    USB_MICRO_VERTICAL_D    USB_MICRO_VERTICAL_D            08_CONECTOR  1
+XTAL     FA-238                  FA-238                  FA-238                          09_2_CRYSTAL 1

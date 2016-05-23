@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -246,6 +246,50 @@ Drill hole 0.05 inches (1.3mm)</description>
 <wire x1="6.35" y1="21.59" x2="6.35" y2="27.94" width="0.127" layer="21"/>
 <wire x1="6.35" y1="27.94" x2="11.43" y2="27.94" width="0.127" layer="21"/>
 <wire x1="11.43" y1="27.94" x2="11.43" y2="21.59" width="0.127" layer="21"/>
+<dimension x1="-16.51" y1="24.13" x2="16.51" y2="24.13" x3="0" y3="31.75" textsize="1.27" layer="21"/>
+<dimension x1="-19.05" y1="21.59" x2="19.05" y2="21.59" x3="0" y3="35.56" textsize="1.27" layer="21" dtype="horizontal"/>
+<dimension x1="-19.05" y1="16.51" x2="16.51" y2="16.51" x3="-1.27" y3="12.7" textsize="1.27" layer="21" dtype="horizontal"/>
+</package>
+<package name="BLESERIAL2">
+<pad name="1" x="-3.81" y="-4" drill="1"/>
+<pad name="2" x="-1.27" y="-4" drill="1"/>
+<pad name="3" x="1.27" y="-4" drill="1"/>
+<pad name="4" x="3.81" y="-4" drill="1"/>
+<hole x="-8" y="-4" drill="2.2"/>
+<hole x="8" y="-4" drill="2.2"/>
+<wire x1="-10" y1="-6" x2="-10" y2="6" width="0.127" layer="21"/>
+<wire x1="-10" y1="6" x2="10" y2="6" width="0.127" layer="21"/>
+<wire x1="10" y1="6" x2="10" y2="-6" width="0.127" layer="21"/>
+<wire x1="10" y1="-6" x2="-10" y2="-6" width="0.127" layer="21"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="8.89" y="1.27" size="1.27" layer="21" rot="R90" align="center">BLE</text>
+</package>
+<package name="BLESERIAL2_NO_HOLE">
+<pad name="1" x="-3.81" y="-2.73" drill="1"/>
+<pad name="2" x="-1.27" y="-2.73" drill="1"/>
+<pad name="3" x="1.27" y="-2.73" drill="1"/>
+<pad name="4" x="3.81" y="-2.73" drill="1"/>
+<wire x1="-10" y1="-4.73" x2="-10" y2="7.27" width="0.127" layer="51"/>
+<wire x1="-10" y1="7.27" x2="10" y2="7.27" width="0.127" layer="51"/>
+<wire x1="10" y1="7.27" x2="10" y2="-4.73" width="0.127" layer="51"/>
+<wire x1="10" y1="-4.73" x2="-10" y2="-4.73" width="0.127" layer="51"/>
+<text x="0" y="1.27" size="1.27" layer="25" align="center">&gt;NAME</text>
+</package>
+<package name="AQM1602">
+<pad name="P$1" x="-5.08" y="0" drill="0.6" diameter="0.8128" shape="square"/>
+<pad name="P$2" x="-3.81" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$3" x="-2.54" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$4" x="-1.27" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$5" x="0" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$6" x="1.27" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$7" x="2.54" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$8" x="3.81" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<pad name="P$9" x="5.08" y="0" drill="0.6" diameter="0.8128" shape="offset" rot="R270"/>
+<wire x1="6.35" y1="0" x2="33" y2="0" width="0.127" layer="21"/>
+<wire x1="33" y1="0" x2="33" y2="-28" width="0.127" layer="21"/>
+<wire x1="33" y1="-28" x2="-33" y2="-28" width="0.127" layer="21"/>
+<wire x1="-33" y1="-28" x2="-33" y2="0" width="0.127" layer="21"/>
+<wire x1="-33" y1="0" x2="-6" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -483,6 +527,32 @@ Drill hole 0.05 inches (1.3mm)</description>
 <pin name="P$78" x="63.5" y="-93.98" visible="pad" length="short"/>
 <pin name="P$79" x="63.5" y="-96.52" visible="pad" length="short"/>
 <pin name="P$80" x="63.5" y="-99.06" visible="pad" length="short"/>
+</symbol>
+<symbol name="BLESERIAL2">
+<pin name="1" x="0" y="0" length="short" rot="R180"/>
+<pin name="2" x="0" y="-2.54" length="short" rot="R180"/>
+<pin name="3" x="0" y="-5.08" length="short" rot="R180"/>
+<pin name="4" x="0" y="-7.62" length="short" rot="R180"/>
+<text x="-10.16" y="0" size="1.778" layer="94" align="center">TX</text>
+<text x="-10.16" y="-2.54" size="1.778" layer="94" align="center">RX</text>
+<text x="-10.16" y="-5.08" size="1.778" layer="94" align="center">GND</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="94" align="center">3.3V</text>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-13.97" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="2.54" x2="-13.97" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LCD_AQM1602">
+<pin name="RST" x="0" y="0" visible="pin" length="short"/>
+<pin name="SCL" x="0" y="-2.54" visible="pin" length="short"/>
+<pin name="SDA" x="0" y="-5.08" visible="pin" length="short"/>
+<pin name="VSS" x="0" y="-7.62" visible="pin" length="short"/>
+<pin name="VDD" x="0" y="-10.16" visible="pin" length="short"/>
+<pin name="VOUT" x="0" y="-12.7" visible="pin" length="short"/>
+<pin name="CAP1P" x="0" y="-15.24" visible="pin" length="short"/>
+<pin name="CAP1N" x="0" y="-17.78" visible="pin" length="short"/>
+<pin name="V0" x="0" y="-20.32" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -834,6 +904,65 @@ Motor output -</description>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
 <connect gate="G$1" pin="P$80" pad="P$80"/>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLE_SERIAL2">
+<gates>
+<gate name="G$1" symbol="BLESERIAL2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLESERIAL2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLE_SERIAL2_NO_HOLE">
+<gates>
+<gate name="G$1" symbol="BLESERIAL2" x="7.62" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="BLESERIAL2_NO_HOLE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LCD_I2C_AQM">
+<gates>
+<gate name="G$1" symbol="LCD_AQM1602" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AQM1602">
+<connects>
+<connect gate="G$1" pin="CAP1N" pad="P$8"/>
+<connect gate="G$1" pin="CAP1P" pad="P$7"/>
+<connect gate="G$1" pin="RST" pad="P$1"/>
+<connect gate="G$1" pin="SCL" pad="P$2"/>
+<connect gate="G$1" pin="SDA" pad="P$3"/>
+<connect gate="G$1" pin="V0" pad="P$9"/>
+<connect gate="G$1" pin="VDD" pad="P$5"/>
+<connect gate="G$1" pin="VOUT" pad="P$6"/>
+<connect gate="G$1" pin="VSS" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>

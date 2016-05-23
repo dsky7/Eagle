@@ -1,0 +1,54 @@
+Partlist
+
+Exported from SFT_BatteryManager1.0v.brd at 2016/04/06 22:05
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value             Package           Library      Position (mm)         Orientation
+
+C2       10pF              1005              02_C         (41.7 15.9)           MR270
+C3       10pF              1005              02_C         (47.5 15.9)           MR90
+C12      1uF               1005              02_C         (41.9 28.75)          MR270
+C13      0.1uF             1005              02_C         (34.5 29.2)           MR45
+C18      0.1uF             1005              02_C         (36.4 17.05)          MR225
+C19      0.1uF             1005              02_C         (36.7 29.2)           MR315
+C20      0.1uF             1005              02_C         (32.5 25.2)           MR135
+C21      0.1uF             1005              02_C         (44.8 19.6)           MR270
+C22      47uF              1608              02_C         (14.5 28)             R90
+C23      10uF              1608              02_C         (43.8 31.5)           MR90
+CN1                        B2P-VH            jst-vh       (39 70)               R180
+CN2                        B2P-VH            jst-vh       (30 70)               R180
+CN3                        B2P-VH            jst-vh       (21 70)               R180
+CN4                        B2P-VH            jst-vh       (48 70)               R180
+CN5                        B2P-VH            jst-vh       (12 70)               R180
+CN6                        B2B-XASK-1        jst-xa       (31 6)                R180
+CN7                        B3P-VH            jst-vh       (45 6)                R180
+CN8                        B3P-VH            jst-vh       (58 6)                R180
+D2       SOD-123           SOD_123           15_DIODE     (10.6 25.8)           R0
+FN1      CHIP_FET          SOT23             06_FET       (47 35)               R0
+FN2      CHIP_FET          SOT23             06_FET       (51 35)               R0
+FP1      SPD50P03L         TO252-5-11        06_FET       (46.7 46.6)           MR0
+FP2      SPD50P03L         TO252-5-11        06_FET       (53.4 46.5)           MR0
+IC1      ATMEGA32U4        QFN-44-7X7        04_IC        (38.5 23)             MR315
+LED1     3MMLED            3MM               10_LED       (24 26)               R90
+R3       10K               1005              01_R         (44.1 37.2)           R90
+R5       10K               1005              01_R         (49.25 37.9)          R180
+R6       330               1005              01_R         (28.6 21.3)           MR180
+R13      22                1005              01_R         (10.2 24.1)           R180
+R14      22                1005              01_R         (10.2 23.2)           R180
+R16      10K               1005              01_R         (25.5 18.4)           R270
+SV3                        ML6               con-ml       (18 7)                R0
+U$3      ICSP              ICSP              08_CONECTOR  (49.3 27.2)           R90
+U$4      INA226            MSOP10            04_IC        (32.2 29.9)           R0
+U$18     DF60_2P_STRAIGAHT DF60_2P_STRAIGHT  08_CONECTOR  (84 63)               R270
+U$20     DF60_2P_STRAIGAHT DF60_2P_STRAIGHT  08_CONECTOR  (84 40)               R270
+U$23     DF60_2P_STRAIGAHT DF60_2P_STRAIGHT  08_CONECTOR  (84 17)               R270
+U$25     30K               1005              01_R         (41 15)               R0
+U$29     TRACO_THL         TRACO_THL         04_IC        (19.16 46)            R0
+U$32     USB_MICRO_KYORITU USB_MICRO_KYORITU 08_CONECTOR  (5.5 23.5)            R270
+U$38     DF60_2P_STRAIGAHT DF60_2P_STRAIGHT  08_CONECTOR  (65 66)               R0
+U$50     10K               1005              01_R         (39 11)               R0
+U$62     TRACO_THL         TRACO_THL         04_IC        (49 46)               R0
+XTAL     FA-238            FA-238            09_2_CRYSTAL (44.5 16.5)           MR0

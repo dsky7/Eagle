@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -336,8 +336,8 @@
 <wire x1="0.4" y1="-1.1" x2="2.35" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="0.4" y1="-1.1" x2="0.4" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-0.4" y1="-1.1" x2="-0.4" y2="-1.7" width="0.127" layer="21"/>
-<pad name="2" x="-1" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="1" x="1" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
 <text x="-3" y="3.5001" size="1.27" layer="25">&gt;NAME</text>
 <text x="0.9001" y="-3.4999" size="1.27" layer="21">1</text>
 </package>
@@ -380,8 +380,8 @@
 <wire x1="2.25" y1="1.3" x2="2.25" y2="-2.2" width="0.127" layer="51"/>
 <wire x1="2.25" y1="-2.2" x2="-2.25" y2="-2.2" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="-2.2" x2="-2.25" y2="1.3" width="0.127" layer="51"/>
-<pad name="1" x="-0.75" y="0" drill="0.7" diameter="1.1"/>
-<pad name="2" x="0.75" y="0" drill="0.7" diameter="1.1"/>
+<pad name="1" x="-0.75" y="0" drill="0.8" diameter="1.1"/>
+<pad name="2" x="0.75" y="0" drill="0.8" diameter="1.1"/>
 <text x="0" y="-1.5" size="1" layer="25" align="center">&gt;NAME</text>
 </package>
 </packages>
@@ -932,10 +932,10 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="3.429" y1="-2.032" x2="3.429" y2="-3.302" width="0.1524" layer="21"/>
 <wire x1="3.429" y1="-0.508" x2="3.429" y2="-2.032" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="-0.508" x2="3.429" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-2.2606" y="-1.2446" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.2606" y="-1.2446" drill="1.016" shape="octagon"/>
-<pad name="3" x="-3.5052" y="1.2446" drill="1.4986" diameter="2.159"/>
-<pad name="4" x="3.5052" y="1.2446" drill="1.4986" diameter="2.159"/>
+<pad name="1" x="-2.2606" y="-1.2446" drill="1" shape="octagon"/>
+<pad name="2" x="2.2606" y="-1.2446" drill="1" shape="octagon"/>
+<pad name="3" x="-3.5052" y="1.2446" drill="1.5" diameter="2.159"/>
+<pad name="4" x="3.5052" y="1.2446" drill="1.5" diameter="2.159"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.683" y="-5.969" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -1052,10 +1052,15 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.5" shape="square" rot="R180"/>
 <pad name="4" x="1.27" y="0" drill="0.9" diameter="1.5" shape="square" rot="R90"/>
 <pad name="2" x="1.27" y="2.54" drill="0.9" diameter="1.5" shape="square" rot="R180"/>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="21"/>
 <wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1107,8 +1112,8 @@ Supplier: DigiKey H11574CT-ND&lt;/li&gt;&lt;/ul&gt;
 <wire x1="0" y1="-2.159" x2="-2.159" y2="0" width="0.1524" layer="51" curve="-90"/>
 <wire x1="2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="90"/>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="A" x="0" y="-1.27" drill="0.8128" shape="octagon" rot="R90"/>
-<pad name="K" x="0" y="1.27" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="A" x="0" y="-1.27" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="K" x="0" y="1.27" drill="0.8" shape="octagon" rot="R90"/>
 <text x="0" y="3.81" size="1.27" layer="25" ratio="10" rot="R180" align="center">&gt;NAME</text>
 </package>
 </packages>
@@ -1595,8 +1600,8 @@ Source:
 <wire x1="0.4" y1="-1.1" x2="2.35" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="0.4" y1="-1.1" x2="0.4" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="-0.4" y1="-1.1" x2="-0.4" y2="-1.7" width="0.127" layer="21"/>
-<pad name="2" x="-1" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="1" x="1" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
 <text x="-3" y="3.5001" size="1.27" layer="25">&gt;NAME</text>
 <text x="0.9001" y="-3.4999" size="1.27" layer="21">1</text>
 </package>
@@ -1909,7 +1914,9 @@ Source:
 <pinref part="IC1" gate="G$1" pin="GND2"/>
 <wire x1="104.14" y1="170.18" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND3"/>
-<wire x1="104.14" y1="167.64" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="167.64" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="165.1" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND4"/>
 <wire x1="104.14" y1="165.1" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$42" gate="G$1" pin="GND"/>

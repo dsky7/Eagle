@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2001,6 +2001,23 @@
 <smd name="14" x="-12" y="-1" dx="3.5" dy="1" layer="1" rot="R90"/>
 <smd name="15" x="-14" y="-1" dx="3.5" dy="1" layer="1" rot="R90"/>
 </package>
+<package name="S2B-PH-KL">
+<wire x1="-1.95" y1="1.35" x2="-1.95" y2="-0.25" width="0.1524" layer="21"/>
+<wire x1="-1.95" y1="-0.25" x2="-1.95" y2="-6.25" width="0.1524" layer="21"/>
+<wire x1="-1.95" y1="1.35" x2="-1.425" y2="1.35" width="0.1524" layer="21"/>
+<wire x1="3.425" y1="1.35" x2="3.95" y2="1.35" width="0.1524" layer="21"/>
+<wire x1="3.95" y1="-6.25" x2="-1.95" y2="-6.25" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R90"/>
+<pad name="2" x="2" y="0" drill="0.8" rot="R90"/>
+<text x="-2" y="2.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<wire x1="3.95" y1="1.35" x2="3.95" y2="-0.25" width="0.1524" layer="21"/>
+<wire x1="3.95" y1="-0.25" x2="3.95" y2="-6.25" width="0.1524" layer="21"/>
+<wire x1="-1.425" y1="0.25" x2="-1.425" y2="-0.25" width="0.1524" layer="21"/>
+<wire x1="-1.425" y1="-0.25" x2="3.425" y2="-0.25" width="0.1524" layer="21"/>
+<wire x1="3.425" y1="-0.25" x2="3.425" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="-1.425" y1="0.25" x2="-1.425" y2="1.35" width="0.1524" layer="21"/>
+<wire x1="3.425" y1="1.35" x2="3.425" y2="0.25" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON-1X2">
@@ -3668,6 +3685,22 @@ Source:
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S2B-PH-K-S">
+<gates>
+<gate name="G$1" symbol="CON-1X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S2B-PH-KL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

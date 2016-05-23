@@ -1,0 +1,66 @@
+Partlist
+
+Exported from CityFireFly_1.0v.sch at 2016/02/04 14:35
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                       Device                      Package      Library      Sheet
+
+C1       22uF                        1608                        1608         02_C         1
+C2                                   1608                        1608         02_C         1
+C3                                   1608                        1608         02_C         1
+C5       22uF                        1608                        1608         02_C         1
+C6       1nF                         1608                        1608         02_C         1
+C7       4.7uF                       1608                        1608         02_C         1
+C8       4.7uF                       1608                        1608         02_C         1
+C12                                  1608                        1608         02_C         1
+C13                                  1608                        1608         02_C         1
+CN1                                  JST-PH2                     JST-PH2      jst-ph (1)   1
+D1       SOD-123                     SOD-123                     SOD_123      15_DIODE     1
+D2       SOD-123                     SOD-123                     SOD_123      15_DIODE     1
+IC1      ATMEGA32U4-AU               ATMEGA32U4-AU               TQFP44       mega32U4     1
+IC2      MCP73831                    MCP73831                    SOT23-5L     04_IC        1
+IC3      LM2735                      LM2735                      SOT23-5L     04_IC        1
+L1       22uH                        KYORITU                     KYORITU      03_L         1
+NCH1     CHIP_FET                    CHIP_FET                    SOT23        06_FET       1
+NCH3     CHIP_FET                    CHIP_FET                    SOT23        06_FET       1
+NCH4     CHIP_FET                    CHIP_FET                    SOT23        06_FET       1
+PCH1     CHIP_FET_P                  CHIP_FET_P                  SOT23        06_FET       1
+PCH2     CHIP_FET_P                  CHIP_FET_P                  SOT23        06_FET       1
+PCH3     CHIP_FET_P                  CHIP_FET_P                  SOT23        06_FET       1
+R1       2K                          RESISTOR__SMD               1608         01_R         1
+R2       100K                        RESISTOR__SMD               1608         01_R         1
+R3       10K                         RESISTOR__SMD               1608         01_R         1
+R5       10K                         RESISTOR__SMD               1608         01_R         1
+R8       10K                         RESISTOR__SMD               1608         01_R         1
+R9       10K                         RESISTOR__SMD               1608         01_R         1
+R10                                  RESISTOR__SMD               1608         01_R         1
+R11                                  RESISTOR__SMD               1608         01_R         1
+R13                                  RESISTOR__SMD               1608         01_R         1
+R14                                  RESISTOR__SMD               1608         01_R         1
+R15      10K                         RESISTOR__SMD               1608         01_R         1
+R16                                  RESISTOR__SMD               1608         01_R         1
+R16A     30K                         RESISTOR__SMD               1608         01_R         1
+R16B                                 RESISTOR__SMD               1608         01_R         1
+R16C                                 RESISTOR__SMD               1608         01_R         1
+R17                                  RESISTOR__SMD               1608         01_R         1
+R18                                  RESISTOR__SMD               1608         01_R         1
+SW1      SKRPACE010                  SKRPACE010                  SKRP         09_1_switch  1
+U$2      MICRO-USB-SHIELD-ZX62R-B-5P MICRO-USB-SHIELD-ZX62R-B-5P ZX62R-B-5P   con-hirose1  1
+U$3      ICSP                        ICSP                        ICSP         08_CONECTOR  1
+U$5      REEDSWITCH_MKA              REEDSWITCH_MKA              MKA-10110    09_1_switch  1
+U$6      BLE_SERIAL2                 BLE_SERIAL2                 BLESERIAL2   12_module    1
+U$32     NEO_FLAT                    NEO_FLAT                    NEO_FLAT     10_LED       1
+U$38     NEO_FLAT                    NEO_FLAT                    NEO_FLAT     10_LED       1
+U$45     TAR5SB                      TAR5SB                      SSOP5-P-0.95 04_IC        1
+U$64                                 1608                        1608         02_C         1
+U$65                                 1608                        1608         02_C         1
+U$67     CHECK_0.8MM                 CHECK_0.8MM                 CHECK_0.8MM  08_CONECTOR  1
+U$68     CHECK_0.8MM                 CHECK_0.8MM                 CHECK_0.8MM  08_CONECTOR  1
+U$69     CHECK_0.8MM                 CHECK_0.8MM                 CHECK_0.8MM  08_CONECTOR  1
+U$70     CHECK_0.8MM                 CHECK_0.8MM                 CHECK_0.8MM  08_CONECTOR  1
+U$71     CHECK_0.8MM                 CHECK_0.8MM                 CHECK_0.8MM  08_CONECTOR  1
+U$81                                 1608                        1608         02_C         1
+XTAL     FA-238                      FA-238                      FA-238       09_2_CRYSTAL 1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -184,10 +184,28 @@ Drill hole 0.05 inches (1.3mm)</description>
 <text x="0" y="3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="3.7V">
-<pin name="+5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="+3.7V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="-3.175" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="-1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="+USB5V">
+<pin name="+USB5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-3.175" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="V3">
+<pin name="V3" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="V4">
+<pin name="V4" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -413,6 +431,42 @@ Motor output -</description>
 <deviceset name="+3.7V">
 <gates>
 <gate name="G$1" symbol="3.7V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+USB5V">
+<gates>
+<gate name="G$1" symbol="+USB5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V3">
+<gates>
+<gate name="G$1" symbol="V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V4">
+<gates>
+<gate name="G$1" symbol="V4" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
